@@ -1,0 +1,2275 @@
+00:00.236	ID:2	Contiki-2.6-2450-geaa8760 started. Node id is set to 2.
+00:00.236	ID:2	Rime started with address 0.2.0.2.0.2.0.2
+00:00.236	ID:2	MAC 00:02:00:02:00:02:00:02 sicslowpan/CSMA/nullrdc, channel check rate 1000 Hz
+00:00.236	ID:2	RPL started
+00:00.236	ID:2	RPL: Reset MRHOF
+00:00.236	ID:2	Tentative link-local IPv6 address fe80:0000:0000:0000:0202:0002:0002:0002
+00:00.236	ID:2	Tentative global IPv6 address aaaa:0000:0000:0000:0202:0002:0002:0002
+00:00.236	ID:2	Starting 'Sender node process'
+00:00.236	ID:2	IPv6 addresses: aaaa::202:2:2:2
+00:00.236	ID:2	fe80::202:2:2:2
+00:00.348	ID:4	Contiki-2.6-2450-geaa8760 started. Node id is set to 4.
+00:00.348	ID:4	Rime started with address 0.4.0.4.0.4.0.4
+00:00.348	ID:4	MAC 00:04:00:04:00:04:00:04 sicslowpan/CSMA/nullrdc, channel check rate 1000 Hz
+00:00.348	ID:4	RPL started
+00:00.348	ID:4	RPL: Reset MRHOF
+00:00.348	ID:4	Tentative link-local IPv6 address fe80:0000:0000:0000:0204:0004:0004:0004
+00:00.348	ID:4	Tentative global IPv6 address aaaa:0000:0000:0000:0204:0004:0004:0004
+00:00.348	ID:4	Starting 'Receiver node'
+00:00.348	ID:4	IPv6 addresses: aaaa::204:4:4:4
+00:00.348	ID:4	fe80::204:4:4:4
+00:00.382	ID:1	Contiki-2.6-2450-geaa8760 started. Node id is set to 1.
+00:00.382	ID:1	Rime started with address 0.1.0.1.0.1.0.1
+00:00.382	ID:1	MAC 00:01:00:01:00:01:00:01 sicslowpan/CSMA/nullrdc, channel check rate 1000 Hz
+00:00.382	ID:1	RPL started
+00:00.382	ID:1	RPL: Reset MRHOF
+00:00.382	ID:1	Tentative link-local IPv6 address fe80:0000:0000:0000:0201:0001:0001:0001
+00:00.382	ID:1	Tentative global IPv6 address aaaa:0000:0000:0000:0201:0001:0001:0001
+00:00.382	ID:1	Starting 'Receiver node'
+00:00.382	ID:1	IPv6 addresses: aaaa::201:1:1:1
+00:00.382	ID:1	fe80::201:1:1:1
+00:00.899	ID:3	Contiki-2.6-2450-geaa8760 started. Node id is set to 3.
+00:00.899	ID:3	Rime started with address 0.3.0.3.0.3.0.3
+00:00.899	ID:3	MAC 00:03:00:03:00:03:00:03 sicslowpan/CSMA/nullrdc, channel check rate 1000 Hz
+00:00.899	ID:3	RPL started
+00:00.899	ID:3	RPL: Reset MRHOF
+00:00.899	ID:3	Tentative link-local IPv6 address fe80:0000:0000:0000:0203:0003:0003:0003
+00:00.899	ID:3	Tentative global IPv6 address aaaa:0000:0000:0000:0203:0003:0003:0003
+00:00.899	ID:3	Starting 'Unicast receiver example process'
+00:00.899	ID:3	IPv6 addresses: aaaa::203:3:3:3
+00:00.899	ID:3	fe80::203:3:3:3
+00:00.899	ID:3	RPL: Node set to be a DAG root with DAG ID aaaa::203:3:3:3
+00:00.899	ID:3	#A root=3
+00:00.899	ID:3	RPL: Scheduling DIO timer 2359 ticks in future (Interval)
+00:00.899	ID:3	RPL: Prefix set - will announce this in DIOs
+00:00.899	ID:3	rpl_set_prefix - prefix NULL
+00:01.236	ID:2	RPL: Sending a DIS to ff02::1a
+00:01.236	ID:2	dis_s:1 dis_r:0 dio_s:0 dio_r:0 dao_s:0 dao_r:0 dao_a_s:0 dao_a_r:0 
+00:01.238	ID:4	RPL: Received a DIS from fe80::202:2:2:2
+00:01.238	ID:4	dis_s:0 dis_r:1 dio_s:0 dio_r:0 dao_s:0 dao_r:0 dao_a_s:0 dao_a_r:0 
+00:03.258	ID:3	RPL: DIO Timer triggered
+00:03.258	ID:3	RPL: Sending prefix info in DIO for aaaa::
+00:03.258	ID:3	RPL: Sending a multicast-DIO with rank 256
+00:03.258	ID:3	dis_s:0 dis_r:0 dio_s:1 dio_r:0 dao_s:0 dao_r:0 dao_a_s:0 dao_a_r:0 
+00:03.258	ID:3	RPL: Scheduling DIO timer 1737 ticks in future (sent)
+00:03.258	ID:3	RPL: rank 256 dioint 12, 0 nbr(s)
+00:03.258	ID:3	RPL: end of list
+00:03.263	ID:1	RPL: Received a DIO from fe80::203:3:3:3
+00:03.263	ID:1	RPL: Neighbor state changed for fe80::203:3:3:3, nscount=0, state=1
+00:03.263	ID:1	RPL: Neighbor added to neighbor cache fe80::203:3:3:3, 00:03:00:03:00:03:00:03
+00:03.263	ID:1	RPL: Incoming DIO (id, ver, rank) = (30,240,256)
+00:03.263	ID:1	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+00:03.263	ID:1	RPL: DIO option 4, length: 14
+00:03.263	ID:1	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+00:03.263	ID:1	RPL: DIO option 8, length: 30
+00:03.263	ID:1	RPL: Copying prefix information
+00:03.263	ID:1	Prefix Information:aaaa::
+00:03.263	ID:1	RPL: New instance detected: Joining...
+00:03.263	ID:1	RPL: rpl_add_parent lladdr 0xb271d964 fe80::203:3:3:3
+00:03.263	ID:1	RPL: Adding fe80::203:3:3:3 as a parent: succeeded
+00:03.263	ID:1	RPL: rpl_set_preferred_parent fe80::203:3:3:3 used to be NULL
+00:03.263	ID:1	RPL: Joined DAG with instance ID 30, rank 768, DAG ID aaaa::203:3:3:3
+00:03.263	ID:1	#A join=3
+00:03.263	ID:1	RPL: Scheduling DIO timer 3565 ticks in future (Interval)
+00:03.263	ID:1	RPL: Adding default route through fe80::203:3:3:3
+00:03.263	ID:1	RPL: Scheduling DAO timer 5640 ticks in the future
+00:03.263	ID:1	dis_s:0 dis_r:0 dio_s:0 dio_r:1 dao_s:0 dao_r:0 dao_a_s:0 dao_a_r:0 
+00:03.263	ID:4	RPL: Received a DIO from fe80::203:3:3:3
+00:03.263	ID:4	RPL: Neighbor state changed for fe80::203:3:3:3, nscount=0, state=1
+00:03.263	ID:4	RPL: Neighbor added to neighbor cache fe80::203:3:3:3, 00:03:00:03:00:03:00:03
+00:03.263	ID:4	RPL: Incoming DIO (id, ver, rank) = (30,240,256)
+00:03.263	ID:4	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+00:03.263	ID:4	RPL: DIO option 4, length: 14
+00:03.263	ID:4	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+00:03.263	ID:4	RPL: DIO option 8, length: 30
+00:03.263	ID:4	RPL: Copying prefix information
+00:03.263	ID:4	Prefix Information:aaaa::
+00:03.263	ID:4	RPL: New instance detected: Joining...
+00:03.263	ID:4	RPL: rpl_add_parent lladdr 0xb271d964 fe80::203:3:3:3
+00:03.263	ID:4	RPL: Adding fe80::203:3:3:3 as a parent: succeeded
+00:03.263	ID:4	RPL: rpl_set_preferred_parent fe80::203:3:3:3 used to be NULL
+00:03.263	ID:4	RPL: Joined DAG with instance ID 30, rank 768, DAG ID aaaa::203:3:3:3
+00:03.263	ID:4	#A join=3
+00:03.263	ID:4	RPL: Scheduling DIO timer 3744 ticks in future (Interval)
+00:03.263	ID:4	RPL: Adding default route through fe80::203:3:3:3
+00:03.263	ID:4	RPL: Scheduling DAO timer 2882 ticks in the future
+00:03.263	ID:4	dis_s:0 dis_r:1 dio_s:0 dio_r:1 dao_s:0 dao_r:0 dao_a_s:0 dao_a_r:0 
+00:04.995	ID:3	RPL: DIO Timer triggered
+00:04.995	ID:3	RPL: DIO Timer interval doubled 13
+00:04.995	ID:3	RPL: Scheduling DIO timer 7953 ticks in future (Interval)
+00:04.995	ID:3	RPL: rank 256 dioint 13, 0 nbr(s)
+00:04.995	ID:3	RPL: end of list
+00:06.145	ID:4	RPL: handle_dao_timer - sending DAO
+00:06.145	ID:4	RPL: Sending DAO with prefix aaaa::204:4:4:4 to fe80::203:3:3:3
+00:06.145	ID:4	dis_s:0 dis_r:1 dio_s:0 dio_r:1 dao_s:1 dao_r:0 dao_a_s:0 dao_a_r:0 
+00:06.151	ID:3	RPL: Received a DAO from fe80::204:4:4:4
+00:06.151	ID:3	RPL: DAO from unicast
+00:06.151	ID:3	RPL: DAO flag: 192, option type: 6, lifetime: 255, prefix length: 128 prefix: aaaa::204:4:4:4
+00:06.151	ID:3	RPL: adding DAO route
+00:06.151	ID:3	RPL: Neighbor state changed for fe80::204:4:4:4, nscount=0, state=1
+00:06.151	ID:3	RPL: Neighbor added to neighbor cache fe80::204:4:4:4, 00:04:00:04:00:04:00:04
+00:06.151	ID:3	RPL: Added a route to aaaa::204:4:4:4/128 via fe80::204:4:4:4
+00:06.151	ID:3	RPL: Sending a DAO ACK with sequence number 241 to fe80::204:4:4:4
+00:06.151	ID:3	dis_s:0 dis_r:0 dio_s:1 dio_r:0 dao_s:0 dao_r:0 dao_a_s:1 dao_a_r:0 
+00:06.151	ID:3	dis_s:0 dis_r:0 dio_s:1 dio_r:0 dao_s:0 dao_r:1 dao_a_s:1 dao_a_r:0 
+00:06.152	ID:4	RPL: rpl_link_neighbor_callback triggering update
+00:06.152	ID:4	RPL: ETX changed from 2 to 1 (packet ETX = 1)
+00:06.155	ID:4	RPL: Received a DAO ACK with sequence number 241 and status 0 from fe80::203:3:3:3
+00:06.155	ID:4	dis_s:0 dis_r:1 dio_s:0 dio_r:1 dao_s:1 dao_r:0 dao_a_s:0 dao_a_r:1 
+00:06.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+00:06.348	ID:4	RPL: Preferred parent update, rank changed from 768 to 512
+00:06.348	ID:4	RPL: Moving in the instance from rank 3 to 2
+00:06.348	ID:4	RPL: The preferred parent is fe80::203:3:3:3 (rank 1)
+00:06.828	ID:1	RPL: DIO Timer triggered
+00:06.828	ID:1	RPL: Sending prefix info in DIO for aaaa::
+00:06.828	ID:1	RPL: Sending a multicast-DIO with rank 768
+00:06.828	ID:1	dis_s:0 dis_r:0 dio_s:1 dio_r:1 dao_s:0 dao_r:0 dao_a_s:0 dao_a_r:0 
+00:06.828	ID:1	RPL: Scheduling DIO timer 531 ticks in future (sent)
+00:06.828	ID:1	RPL: rank 768 dioint 12, 1 nbr(s)
+00:06.828	ID:1	RPL: nbr   3   256,   512 =>   768 * (last tx 0 min ago)
+00:06.828	ID:1	RPL: end of list
+00:06.833	ID:3	RPL: Received a DIO from fe80::201:1:1:1
+00:06.833	ID:3	RPL: Neighbor state changed for fe80::201:1:1:1, nscount=0, state=1
+00:06.833	ID:3	RPL: Neighbor added to neighbor cache fe80::201:1:1:1, 00:01:00:01:00:01:00:01
+00:06.833	ID:3	RPL: Incoming DIO (id, ver, rank) = (30,240,768)
+00:06.833	ID:3	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+00:06.833	ID:3	RPL: DIO option 4, length: 14
+00:06.833	ID:3	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+00:06.833	ID:3	RPL: DIO option 8, length: 30
+00:06.833	ID:3	RPL: Copying prefix information
+00:06.833	ID:3	Prefix Information:aaaa::
+00:06.833	ID:3	RPL : Prefix announced in DIO
+00:06.833	ID:3	RPL: Prefix set - will announce this in DIOs
+00:06.833	ID:3	rpl_set_prefix - prefix NON-NULL
+00:06.833	ID:3	dis_s:0 dis_r:0 dio_s:1 dio_r:1 dao_s:0 dao_r:1 dao_a_s:1 dao_a_r:0 
+00:07.007	ID:4	RPL: DIO Timer triggered
+00:07.007	ID:4	RPL: Sending prefix info in DIO for aaaa::
+00:07.007	ID:4	RPL: Sending a multicast-DIO with rank 512
+00:07.007	ID:4	dis_s:0 dis_r:1 dio_s:1 dio_r:1 dao_s:1 dao_r:0 dao_a_s:0 dao_a_r:1 
+00:07.007	ID:4	RPL: Scheduling DIO timer 352 ticks in future (sent)
+00:07.007	ID:4	RPL: rank 512 dioint 12, 1 nbr(s)
+00:07.007	ID:4	RPL: nbr   3   256,   256 =>   512 * (last tx 0 min ago)
+00:07.007	ID:4	RPL: end of list
+00:07.012	ID:2	RPL: Received a DIO from fe80::204:4:4:4
+00:07.012	ID:2	RPL: Neighbor state changed for fe80::204:4:4:4, nscount=0, state=1
+00:07.012	ID:2	RPL: Neighbor added to neighbor cache fe80::204:4:4:4, 00:04:00:04:00:04:00:04
+00:07.012	ID:2	RPL: Incoming DIO (id, ver, rank) = (30,240,512)
+00:07.012	ID:2	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+00:07.012	ID:2	RPL: DIO option 4, length: 14
+00:07.012	ID:2	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+00:07.012	ID:2	RPL: DIO option 8, length: 30
+00:07.012	ID:2	RPL: Copying prefix information
+00:07.012	ID:2	Prefix Information:aaaa::
+00:07.012	ID:2	RPL: New instance detected: Joining...
+00:07.012	ID:2	RPL: rpl_add_parent lladdr 0xb2469964 fe80::204:4:4:4
+00:07.012	ID:2	RPL: Adding fe80::204:4:4:4 as a parent: succeeded
+00:07.012	ID:2	RPL: rpl_set_preferred_parent fe80::204:4:4:4 used to be NULL
+00:07.012	ID:2	RPL: Joined DAG with instance ID 30, rank 1024, DAG ID aaaa::203:3:3:3
+00:07.012	ID:2	#A join=3
+00:07.012	ID:2	RPL: Scheduling DIO timer 3192 ticks in future (Interval)
+00:07.012	ID:2	RPL: Adding default route through fe80::204:4:4:4
+00:07.012	ID:2	RPL: Scheduling DAO timer 3738 ticks in the future
+00:07.012	ID:2	dis_s:1 dis_r:0 dio_s:0 dio_r:1 dao_s:0 dao_r:0 dao_a_s:0 dao_a_r:0 
+00:07.012	ID:3	RPL: Received a DIO from fe80::204:4:4:4
+00:07.012	ID:3	RPL: Neighbor already in neighbor cache
+00:07.012	ID:3	RPL: Incoming DIO (id, ver, rank) = (30,240,512)
+00:07.012	ID:3	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+00:07.012	ID:3	RPL: DIO option 4, length: 14
+00:07.012	ID:3	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+00:07.012	ID:3	RPL: DIO option 8, length: 30
+00:07.012	ID:3	RPL: Copying prefix information
+00:07.012	ID:3	Prefix Information:aaaa::
+00:07.012	ID:3	RPL : Prefix announced in DIO
+00:07.012	ID:3	RPL: Prefix set - will announce this in DIOs
+00:07.012	ID:3	rpl_set_prefix - prefix NON-NULL
+00:07.012	ID:3	dis_s:0 dis_r:0 dio_s:1 dio_r:2 dao_s:0 dao_r:1 dao_a_s:1 dao_a_r:0 
+00:07.359	ID:1	RPL: DIO Timer triggered
+00:07.359	ID:1	RPL: DIO Timer interval doubled 13
+00:07.359	ID:1	RPL: Scheduling DIO timer 4596 ticks in future (Interval)
+00:07.359	ID:1	RPL: rank 768 dioint 13, 1 nbr(s)
+00:07.359	ID:1	RPL: nbr   3   256,   512 =>   768 * (last tx 0 min ago)
+00:07.359	ID:1	RPL: end of list
+00:07.359	ID:4	RPL: DIO Timer triggered
+00:07.359	ID:4	RPL: DIO Timer interval doubled 13
+00:07.359	ID:4	RPL: Scheduling DIO timer 5197 ticks in future (Interval)
+00:07.359	ID:4	RPL: rank 512 dioint 13, 1 nbr(s)
+00:07.359	ID:4	RPL: nbr   3   256,   256 =>   512 * (last tx 0 min ago)
+00:07.359	ID:4	RPL: end of list
+00:08.903	ID:1	RPL: handle_dao_timer - sending DAO
+00:08.903	ID:1	RPL: Sending DAO with prefix aaaa::201:1:1:1 to fe80::203:3:3:3
+00:08.903	ID:1	dis_s:0 dis_r:0 dio_s:1 dio_r:1 dao_s:1 dao_r:0 dao_a_s:0 dao_a_r:0 
+00:08.908	ID:3	RPL: Received a DAO from fe80::201:1:1:1
+00:08.908	ID:3	RPL: DAO from unicast
+00:08.908	ID:3	RPL: DAO flag: 192, option type: 6, lifetime: 255, prefix length: 128 prefix: aaaa::201:1:1:1
+00:08.908	ID:3	RPL: adding DAO route
+00:08.908	ID:3	RPL: Neighbor already in neighbor cache
+00:08.908	ID:3	RPL: Added a route to aaaa::201:1:1:1/128 via fe80::201:1:1:1
+00:08.908	ID:3	RPL: Sending a DAO ACK with sequence number 241 to fe80::201:1:1:1
+00:08.908	ID:3	dis_s:0 dis_r:0 dio_s:1 dio_r:2 dao_s:0 dao_r:1 dao_a_s:2 dao_a_r:0 
+00:08.908	ID:3	dis_s:0 dis_r:0 dio_s:1 dio_r:2 dao_s:0 dao_r:2 dao_a_s:2 dao_a_r:0 
+00:08.909	ID:1	RPL: rpl_link_neighbor_callback triggering update
+00:08.909	ID:1	RPL: ETX changed from 2 to 1 (packet ETX = 1)
+00:08.913	ID:1	RPL: Received a DAO ACK with sequence number 241 and status 0 from fe80::203:3:3:3
+00:08.913	ID:1	dis_s:0 dis_r:0 dio_s:1 dio_r:1 dao_s:1 dao_r:0 dao_a_s:0 dao_a_r:1 
+00:09.382	ID:1	RPL: rpl_process_parent_event recalculate_ranks
+00:09.382	ID:1	RPL: Preferred parent update, rank changed from 768 to 512
+00:09.382	ID:1	RPL: Moving in the instance from rank 3 to 2
+00:09.382	ID:1	RPL: The preferred parent is fe80::203:3:3:3 (rank 1)
+00:10.204	ID:2	RPL: DIO Timer triggered
+00:10.204	ID:2	RPL: Sending prefix info in DIO for aaaa::
+00:10.204	ID:2	RPL: Sending a multicast-DIO with rank 1024
+00:10.204	ID:2	dis_s:1 dis_r:0 dio_s:1 dio_r:1 dao_s:0 dao_r:0 dao_a_s:0 dao_a_r:0 
+00:10.204	ID:2	RPL: Scheduling DIO timer 904 ticks in future (sent)
+00:10.204	ID:2	RPL: rank 1024 dioint 12, 1 nbr(s)
+00:10.204	ID:2	RPL: nbr   4   512,   512 =>  1024 * (last tx 0 min ago)
+00:10.204	ID:2	RPL: end of list
+00:10.210	ID:4	RPL: Received a DIO from fe80::202:2:2:2
+00:10.210	ID:4	RPL: Neighbor state changed for fe80::202:2:2:2, nscount=0, state=1
+00:10.210	ID:4	RPL: Neighbor added to neighbor cache fe80::202:2:2:2, 00:02:00:02:00:02:00:02
+00:10.210	ID:4	RPL: Incoming DIO (id, ver, rank) = (30,240,1024)
+00:10.210	ID:4	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+00:10.210	ID:4	RPL: DIO option 4, length: 14
+00:10.210	ID:4	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+00:10.210	ID:4	RPL: DIO option 8, length: 30
+00:10.210	ID:4	RPL: Copying prefix information
+00:10.210	ID:4	Prefix Information:aaaa::
+00:10.210	ID:4	RPL : Prefix announced in DIO
+00:10.210	ID:4	RPL: Prefix set - will announce this in DIOs
+00:10.210	ID:4	rpl_set_prefix - prefix NON-NULL
+00:10.210	ID:4	RPL: rpl_add_parent lladdr 0xb271d970 fe80::202:2:2:2
+00:10.210	ID:4	RPL: New candidate parent with rank 1024: fe80::202:2:2:2
+00:10.210	ID:4	RPL: preferred DAG aaaa::203:3:3:3, rank 512, min_rank 512, parent rank 1024, parent etx 4294967295, link metric 512, instance etx 0
+00:10.210	ID:4	dis_s:0 dis_r:1 dio_s:1 dio_r:2 dao_s:1 dao_r:0 dao_a_s:0 dao_a_r:1 
+00:10.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+00:10.750	ID:2	RPL: handle_dao_timer - sending DAO
+00:10.750	ID:2	RPL: Sending DAO with prefix aaaa::202:2:2:2 to fe80::204:4:4:4
+00:10.750	ID:2	dis_s:1 dis_r:0 dio_s:1 dio_r:1 dao_s:1 dao_r:0 dao_a_s:0 dao_a_r:0 
+00:10.755	ID:4	RPL: Received a DAO from fe80::202:2:2:2
+00:10.755	ID:4	RPL: DAO from unicast
+00:10.755	ID:4	RPL: DAO flag: 192, option type: 6, lifetime: 255, prefix length: 128 prefix: aaaa::202:2:2:2
+00:10.755	ID:4	RPL: adding DAO route
+00:10.755	ID:4	RPL: Neighbor already in neighbor cache
+00:10.755	ID:4	RPL: Added a route to aaaa::202:2:2:2/128 via fe80::202:2:2:2
+00:10.755	ID:4	RPL: Forwarding DAO to parent fe80::203:3:3:3
+00:10.755	ID:4	dis_s:0 dis_r:1 dio_s:1 dio_r:2 dao_s:2 dao_r:0 dao_a_s:0 dao_a_r:1        
+00:10.755	ID:4	RPL: Sending a DAO ACK with sequence number 241 to fe80::202:2:2:2
+00:10.755	ID:4	dis_s:0 dis_r:1 dio_s:1 dio_r:2 dao_s:2 dao_r:0 dao_a_s:1 dao_a_r:1 
+00:10.755	ID:4	dis_s:0 dis_r:1 dio_s:1 dio_r:2 dao_s:2 dao_r:1 dao_a_s:1 dao_a_r:1 
+00:10.756	ID:2	RPL: rpl_link_neighbor_callback triggering update
+00:10.756	ID:2	RPL: ETX changed from 2 to 1 (packet ETX = 1)
+00:10.759	ID:2	RPL: Received a DAO ACK with sequence number 241 and status 0 from fe80::204:4:4:4
+00:10.759	ID:2	dis_s:1 dis_r:0 dio_s:1 dio_r:1 dao_s:1 dao_r:0 dao_a_s:0 dao_a_r:1 
+00:10.760	ID:4	RPL: rpl_link_neighbor_callback triggering update
+00:10.760	ID:4	RPL: ETX changed from 2 to 1 (packet ETX = 1)
+00:10.766	ID:3	RPL: Received a DAO from fe80::204:4:4:4
+00:10.766	ID:3	RPL: DAO from unicast
+00:10.766	ID:3	RPL: DAO flag: 192, option type: 6, lifetime: 255, prefix length: 128 prefix: aaaa::202:2:2:2
+00:10.766	ID:3	RPL: adding DAO route
+00:10.766	ID:3	RPL: Neighbor already in neighbor cache
+00:10.766	ID:3	RPL: Added a route to aaaa::202:2:2:2/128 via fe80::204:4:4:4
+00:10.766	ID:3	RPL: Sending a DAO ACK with sequence number 241 to fe80::204:4:4:4
+00:10.766	ID:3	dis_s:0 dis_r:0 dio_s:1 dio_r:2 dao_s:0 dao_r:2 dao_a_s:3 dao_a_r:0 
+00:10.766	ID:3	dis_s:0 dis_r:0 dio_s:1 dio_r:2 dao_s:0 dao_r:3 dao_a_s:3 dao_a_r:0 
+00:10.766	ID:4	RPL: rpl_link_neighbor_callback triggering update
+00:10.766	ID:4	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+00:10.770	ID:4	RPL: Received a DAO ACK with sequence number 241 and status 0 from fe80::203:3:3:3
+00:10.770	ID:4	dis_s:0 dis_r:1 dio_s:1 dio_r:2 dao_s:2 dao_r:1 dao_a_s:1 dao_a_r:2 
+00:11.108	ID:2	RPL: DIO Timer triggered
+00:11.108	ID:2	RPL: DIO Timer interval doubled 13
+00:11.108	ID:2	RPL: Scheduling DIO timer 7103 ticks in future (Interval)
+00:11.108	ID:2	RPL: rank 1024 dioint 13, 1 nbr(s)
+00:11.108	ID:2	RPL: nbr   4   512,   256 =>   768 * (last tx 0 min ago)
+00:11.108	ID:2	RPL: end of list
+00:11.236	ID:2	RPL: rpl_process_parent_event recalculate_ranks
+00:11.236	ID:2	RPL: Preferred parent update, rank changed from 1024 to 768
+00:11.236	ID:2	RPL: Moving in the instance from rank 4 to 3
+00:11.236	ID:2	RPL: The preferred parent is fe80::204:4:4:4 (rank 2)
+00:11.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+00:11.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+00:11.955	ID:1	RPL: DIO Timer triggered
+00:11.955	ID:1	RPL: Sending prefix info in DIO for aaaa::
+00:11.955	ID:1	RPL: Sending a multicast-DIO with rank 512
+00:11.955	ID:1	dis_s:0 dis_r:0 dio_s:2 dio_r:1 dao_s:1 dao_r:0 dao_a_s:0 dao_a_r:1 
+00:11.955	ID:1	RPL: Scheduling DIO timer 3596 ticks in future (sent)
+00:11.955	ID:1	RPL: rank 512 dioint 13, 1 nbr(s)
+00:11.955	ID:1	RPL: nbr   3   256,   256 =>   512 * (last tx 0 min ago)
+00:11.955	ID:1	RPL: end of list
+00:11.960	ID:3	RPL: Received a DIO from fe80::201:1:1:1
+00:11.960	ID:3	RPL: Neighbor already in neighbor cache
+00:11.960	ID:3	RPL: Incoming DIO (id, ver, rank) = (30,240,512)
+00:11.960	ID:3	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+00:11.960	ID:3	RPL: DIO option 4, length: 14
+00:11.960	ID:3	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+00:11.960	ID:3	RPL: DIO option 8, length: 30
+00:11.960	ID:3	RPL: Copying prefix information
+00:11.960	ID:3	Prefix Information:aaaa::
+00:11.960	ID:3	RPL : Prefix announced in DIO
+00:11.960	ID:3	RPL: Prefix set - will announce this in DIOs
+00:11.960	ID:3	rpl_set_prefix - prefix NON-NULL
+00:11.960	ID:3	dis_s:0 dis_r:0 dio_s:1 dio_r:3 dao_s:0 dao_r:3 dao_a_s:3 dao_a_r:0 
+00:12.556	ID:4	RPL: DIO Timer triggered
+00:12.556	ID:4	RPL: Sending prefix info in DIO for aaaa::
+00:12.556	ID:4	RPL: Sending a multicast-DIO with rank 512
+00:12.556	ID:4	dis_s:0 dis_r:1 dio_s:2 dio_r:2 dao_s:2 dao_r:1 dao_a_s:1 dao_a_r:2 
+00:12.556	ID:4	RPL: Scheduling DIO timer 2995 ticks in future (sent)
+00:12.556	ID:4	RPL: rank 512 dioint 13, 2 nbr(s)
+00:12.556	ID:4	RPL: nbr   3   256,   256 =>   512 * (last tx 0 min ago)
+00:12.556	ID:4	RPL: nbr   2  1024,   256 =>  1280   (last tx 0 min ago)
+00:12.556	ID:4	RPL: end of list
+00:12.561	ID:2	RPL: Received a DIO from fe80::204:4:4:4
+00:12.561	ID:2	RPL: Neighbor already in neighbor cache
+00:12.561	ID:2	RPL: Incoming DIO (id, ver, rank) = (30,240,512)
+00:12.561	ID:2	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+00:12.561	ID:2	RPL: DIO option 4, length: 14
+00:12.561	ID:2	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+00:12.561	ID:2	RPL: DIO option 8, length: 30
+00:12.561	ID:2	RPL: Copying prefix information
+00:12.561	ID:2	Prefix Information:aaaa::
+00:12.561	ID:2	RPL : Prefix announced in DIO
+00:12.561	ID:2	RPL: Prefix set - will announce this in DIOs
+00:12.561	ID:2	rpl_set_prefix - prefix NON-NULL
+00:12.561	ID:2	RPL: Received consistent DIO
+00:12.561	ID:2	RPL: preferred DAG aaaa::203:3:3:3, rank 768, min_rank 768, parent rank 512, parent etx 4294967295, link metric 256, instance etx 0
+00:12.561	ID:2	RPL: Scheduling DAO timer 3333 ticks in the future
+00:12.561	ID:2	dis_s:1 dis_r:0 dio_s:1 dio_r:2 dao_s:1 dao_r:0 dao_a_s:0 dao_a_r:1 
+00:12.561	ID:3	RPL: Received a DIO from fe80::204:4:4:4
+00:12.561	ID:3	RPL: Neighbor already in neighbor cache
+00:12.561	ID:3	RPL: Incoming DIO (id, ver, rank) = (30,240,512)
+00:12.561	ID:3	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+00:12.561	ID:3	RPL: DIO option 4, length: 14
+00:12.561	ID:3	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+00:12.561	ID:3	RPL: DIO option 8, length: 30
+00:12.561	ID:3	RPL: Copying prefix information
+00:12.561	ID:3	Prefix Information:aaaa::
+00:12.561	ID:3	RPL : Prefix announced in DIO
+00:12.561	ID:3	RPL: Prefix set - will announce this in DIOs
+00:12.561	ID:3	rpl_set_prefix - prefix NON-NULL
+00:12.561	ID:3	dis_s:0 dis_r:0 dio_s:1 dio_r:4 dao_s:0 dao_r:3 dao_a_s:3 dao_a_r:0 
+00:12.948	ID:3	RPL: DIO Timer triggered
+00:12.948	ID:3	RPL: Sending prefix info in DIO for aaaa::
+00:12.948	ID:3	RPL: Sending a multicast-DIO with rank 256
+00:12.948	ID:3	dis_s:0 dis_r:0 dio_s:2 dio_r:4 dao_s:0 dao_r:3 dao_a_s:3 dao_a_r:0 
+00:12.948	ID:3	RPL: Scheduling DIO timer 239 ticks in future (sent)
+00:12.948	ID:3	RPL: rank 256 dioint 13, 2 nbr(s)
+00:12.948	ID:3	RPL: end of list
+00:12.953	ID:1	RPL: Received a DIO from fe80::203:3:3:3
+00:12.953	ID:1	RPL: Neighbor already in neighbor cache
+00:12.953	ID:1	RPL: Incoming DIO (id, ver, rank) = (30,240,256)
+00:12.953	ID:1	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+00:12.953	ID:1	RPL: DIO option 4, length: 14
+00:12.953	ID:1	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+00:12.953	ID:1	RPL: DIO option 8, length: 30
+00:12.953	ID:1	RPL: Copying prefix information
+00:12.953	ID:1	Prefix Information:aaaa::
+00:12.953	ID:1	RPL : Prefix announced in DIO
+00:12.953	ID:1	RPL: Prefix set - will announce this in DIOs
+00:12.953	ID:1	rpl_set_prefix - prefix NON-NULL
+00:12.953	ID:1	RPL: Received consistent DIO
+00:12.953	ID:1	RPL: preferred DAG aaaa::203:3:3:3, rank 512, min_rank 512, parent rank 256, parent etx 4294967295, link metric 256, instance etx 0
+00:12.953	ID:1	RPL: Scheduling DAO timer 3850 ticks in the future
+00:12.953	ID:1	dis_s:0 dis_r:0 dio_s:2 dio_r:2 dao_s:1 dao_r:0 dao_a_s:0 dao_a_r:1 
+00:12.953	ID:4	RPL: Received a DIO from fe80::203:3:3:3
+00:12.953	ID:4	RPL: Neighbor already in neighbor cache
+00:12.953	ID:4	RPL: Incoming DIO (id, ver, rank) = (30,240,256)
+00:12.953	ID:4	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+00:12.953	ID:4	RPL: DIO option 4, length: 14
+00:12.953	ID:4	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+00:12.953	ID:4	RPL: DIO option 8, length: 30
+00:12.953	ID:4	RPL: Copying prefix information
+00:12.953	ID:4	Prefix Information:aaaa::
+00:12.953	ID:4	RPL : Prefix announced in DIO
+00:12.953	ID:4	RPL: Prefix set - will announce this in DIOs
+00:12.953	ID:4	rpl_set_prefix - prefix NON-NULL
+00:12.953	ID:4	RPL: Received consistent DIO
+00:12.953	ID:4	RPL: preferred DAG aaaa::203:3:3:3, rank 512, min_rank 512, parent rank 256, parent etx 4294967295, link metric 256, instance etx 0
+00:12.953	ID:4	RPL: Scheduling DAO timer 2468 ticks in the future
+00:12.953	ID:4	dis_s:0 dis_r:1 dio_s:2 dio_r:3 dao_s:2 dao_r:1 dao_a_s:1 dao_a_r:2 
+00:13.187	ID:3	RPL: DIO Timer triggered
+00:13.187	ID:3	RPL: DIO Timer interval doubled 14
+00:13.187	ID:3	RPL: Scheduling DIO timer 12687 ticks in future (Interval)
+00:13.187	ID:3	RPL: rank 256 dioint 14, 2 nbr(s)
+00:13.187	ID:3	RPL: end of list
+00:13.236	ID:2	RPL: rpl_process_parent_event recalculate_ranks
+00:13.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+00:13.382	ID:1	RPL: rpl_process_parent_event recalculate_ranks
+00:15.421	ID:4	RPL: handle_dao_timer - sending DAO
+00:15.421	ID:4	RPL: Sending DAO with prefix aaaa::204:4:4:4 to fe80::203:3:3:3
+00:15.421	ID:4	dis_s:0 dis_r:1 dio_s:2 dio_r:3 dao_s:3 dao_r:1 dao_a_s:1 dao_a_r:2 
+00:15.426	ID:3	RPL: Received a DAO from fe80::204:4:4:4
+00:15.426	ID:3	RPL: DAO from unicast
+00:15.426	ID:3	RPL: DAO flag: 192, option type: 6, lifetime: 255, prefix length: 128 prefix: aaaa::204:4:4:4
+00:15.426	ID:3	RPL: adding DAO route
+00:15.426	ID:3	RPL: Neighbor already in neighbor cache
+00:15.426	ID:3	RPL: Added a route to aaaa::204:4:4:4/128 via fe80::204:4:4:4
+00:15.426	ID:3	RPL: Sending a DAO ACK with sequence number 242 to fe80::204:4:4:4
+00:15.426	ID:3	dis_s:0 dis_r:0 dio_s:2 dio_r:4 dao_s:0 dao_r:3 dao_a_s:4 dao_a_r:0 
+00:15.426	ID:3	dis_s:0 dis_r:0 dio_s:2 dio_r:4 dao_s:0 dao_r:4 dao_a_s:4 dao_a_r:0 
+00:15.427	ID:4	RPL: rpl_link_neighbor_callback triggering update
+00:15.427	ID:4	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+00:15.430	ID:4	RPL: Received a DAO ACK with sequence number 242 and status 0 from fe80::203:3:3:3
+00:15.430	ID:4	dis_s:0 dis_r:1 dio_s:2 dio_r:3 dao_s:3 dao_r:1 dao_a_s:1 dao_a_r:3 
+00:15.551	ID:1	RPL: DIO Timer triggered
+00:15.551	ID:1	RPL: DIO Timer interval doubled 14
+00:15.551	ID:1	RPL: Scheduling DIO timer 10753 ticks in future (Interval)
+00:15.551	ID:1	RPL: rank 512 dioint 14, 1 nbr(s)
+00:15.551	ID:1	RPL: nbr   3   256,   256 =>   512 * (last tx 0 min ago)
+00:15.551	ID:1	RPL: end of list
+00:15.551	ID:4	RPL: DIO Timer triggered
+00:15.551	ID:4	RPL: DIO Timer interval doubled 14
+00:15.551	ID:4	RPL: Scheduling DIO timer 14563 ticks in future (Interval)
+00:15.551	ID:4	RPL: rank 512 dioint 14, 2 nbr(s)
+00:15.551	ID:4	RPL: nbr   3   256,   256 =>   512 * (last tx 0 min ago)
+00:15.551	ID:4	RPL: nbr   2  1024,   256 =>  1280   (last tx 0 min ago)
+00:15.551	ID:4	RPL: end of list
+00:15.894	ID:2	RPL: handle_dao_timer - sending DAO
+00:15.894	ID:2	RPL: Sending DAO with prefix aaaa::202:2:2:2 to fe80::204:4:4:4
+00:15.894	ID:2	dis_s:1 dis_r:0 dio_s:1 dio_r:2 dao_s:2 dao_r:0 dao_a_s:0 dao_a_r:1 
+00:15.900	ID:4	RPL: Received a DAO from fe80::202:2:2:2
+00:15.900	ID:4	RPL: DAO from unicast
+00:15.900	ID:4	RPL: DAO flag: 192, option type: 6, lifetime: 255, prefix length: 128 prefix: aaaa::202:2:2:2
+00:15.900	ID:4	RPL: adding DAO route
+00:15.900	ID:4	RPL: Neighbor already in neighbor cache
+00:15.900	ID:4	RPL: Added a route to aaaa::202:2:2:2/128 via fe80::202:2:2:2
+00:15.900	ID:4	RPL: Forwarding DAO to parent fe80::203:3:3:3
+00:15.900	ID:4	dis_s:0 dis_r:1 dio_s:2 dio_r:3 dao_s:4 dao_r:1 dao_a_s:1 dao_a_r:3        
+00:15.900	ID:4	RPL: Sending a DAO ACK with sequence number 242 to fe80::202:2:2:2
+00:15.900	ID:4	dis_s:0 dis_r:1 dio_s:2 dio_r:3 dao_s:4 dao_r:1 dao_a_s:2 dao_a_r:3 
+00:15.900	ID:4	dis_s:0 dis_r:1 dio_s:2 dio_r:3 dao_s:4 dao_r:2 dao_a_s:2 dao_a_r:3 
+00:15.901	ID:2	RPL: rpl_link_neighbor_callback triggering update
+00:15.901	ID:2	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+00:15.904	ID:2	RPL: Received a DAO ACK with sequence number 242 and status 0 from fe80::204:4:4:4
+00:15.904	ID:2	dis_s:1 dis_r:0 dio_s:1 dio_r:2 dao_s:2 dao_r:0 dao_a_s:0 dao_a_r:2 
+00:15.905	ID:4	RPL: rpl_link_neighbor_callback triggering update
+00:15.905	ID:4	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+00:15.910	ID:3	RPL: Received a DAO from fe80::204:4:4:4
+00:15.910	ID:3	RPL: DAO from unicast
+00:15.910	ID:3	RPL: DAO flag: 192, option type: 6, lifetime: 255, prefix length: 128 prefix: aaaa::202:2:2:2
+00:15.910	ID:3	RPL: adding DAO route
+00:15.910	ID:3	RPL: Neighbor already in neighbor cache
+00:15.910	ID:3	RPL: Added a route to aaaa::202:2:2:2/128 via fe80::204:4:4:4
+00:15.910	ID:3	RPL: Sending a DAO ACK with sequence number 242 to fe80::204:4:4:4
+00:15.910	ID:3	dis_s:0 dis_r:0 dio_s:2 dio_r:4 dao_s:0 dao_r:4 dao_a_s:5 dao_a_r:0 
+00:15.910	ID:3	dis_s:0 dis_r:0 dio_s:2 dio_r:4 dao_s:0 dao_r:5 dao_a_s:5 dao_a_r:0 
+00:15.911	ID:4	RPL: rpl_link_neighbor_callback triggering update
+00:15.911	ID:4	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+00:15.915	ID:4	RPL: Received a DAO ACK with sequence number 242 and status 0 from fe80::203:3:3:3
+00:15.915	ID:4	dis_s:0 dis_r:1 dio_s:2 dio_r:3 dao_s:4 dao_r:2 dao_a_s:2 dao_a_r:4 
+00:16.236	ID:2	RPL: rpl_process_parent_event recalculate_ranks
+00:16.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+00:16.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+00:16.803	ID:1	RPL: handle_dao_timer - sending DAO
+00:16.803	ID:1	RPL: Sending DAO with prefix aaaa::201:1:1:1 to fe80::203:3:3:3
+00:16.803	ID:1	dis_s:0 dis_r:0 dio_s:2 dio_r:2 dao_s:2 dao_r:0 dao_a_s:0 dao_a_r:1 
+00:16.808	ID:3	RPL: Received a DAO from fe80::201:1:1:1
+00:16.808	ID:3	RPL: DAO from unicast
+00:16.808	ID:3	RPL: DAO flag: 192, option type: 6, lifetime: 255, prefix length: 128 prefix: aaaa::201:1:1:1
+00:16.808	ID:3	RPL: adding DAO route
+00:16.808	ID:3	RPL: Neighbor already in neighbor cache
+00:16.808	ID:3	RPL: Added a route to aaaa::201:1:1:1/128 via fe80::201:1:1:1
+00:16.808	ID:3	RPL: Sending a DAO ACK with sequence number 242 to fe80::201:1:1:1
+00:16.808	ID:3	dis_s:0 dis_r:0 dio_s:2 dio_r:4 dao_s:0 dao_r:5 dao_a_s:6 dao_a_r:0 
+00:16.808	ID:3	dis_s:0 dis_r:0 dio_s:2 dio_r:4 dao_s:0 dao_r:6 dao_a_s:6 dao_a_r:0 
+00:16.809	ID:1	RPL: rpl_link_neighbor_callback triggering update
+00:16.809	ID:1	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+00:16.812	ID:1	RPL: Received a DAO ACK with sequence number 242 and status 0 from fe80::203:3:3:3
+00:16.812	ID:1	dis_s:0 dis_r:0 dio_s:2 dio_r:2 dao_s:2 dao_r:0 dao_a_s:0 dao_a_r:2 
+00:17.382	ID:1	RPL: rpl_process_parent_event recalculate_ranks
+00:18.211	ID:2	RPL: DIO Timer triggered
+00:18.211	ID:2	RPL: Sending prefix info in DIO for aaaa::
+00:18.211	ID:2	RPL: Sending a multicast-DIO with rank 768
+00:18.211	ID:2	dis_s:1 dis_r:0 dio_s:2 dio_r:2 dao_s:2 dao_r:0 dao_a_s:0 dao_a_r:2 
+00:18.211	ID:2	RPL: Scheduling DIO timer 1089 ticks in future (sent)
+00:18.211	ID:2	RPL: rank 768 dioint 13, 1 nbr(s)
+00:18.211	ID:2	RPL: nbr   4   512,   256 =>   768 * (last tx 0 min ago)
+00:18.211	ID:2	RPL: end of list
+00:18.216	ID:4	RPL: Received a DIO from fe80::202:2:2:2
+00:18.216	ID:4	RPL: Neighbor already in neighbor cache
+00:18.216	ID:4	RPL: Incoming DIO (id, ver, rank) = (30,240,768)
+00:18.216	ID:4	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+00:18.216	ID:4	RPL: DIO option 4, length: 14
+00:18.216	ID:4	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+00:18.216	ID:4	RPL: DIO option 8, length: 30
+00:18.216	ID:4	RPL: Copying prefix information
+00:18.216	ID:4	Prefix Information:aaaa::
+00:18.216	ID:4	RPL : Prefix announced in DIO
+00:18.216	ID:4	RPL: Prefix set - will announce this in DIOs
+00:18.216	ID:4	rpl_set_prefix - prefix NON-NULL
+00:18.216	ID:4	RPL: preferred DAG aaaa::203:3:3:3, rank 512, min_rank 512, parent rank 768, parent etx 4294967295, link metric 256, instance etx 0
+00:18.216	ID:4	dis_s:0 dis_r:1 dio_s:2 dio_r:4 dao_s:4 dao_r:2 dao_a_s:2 dao_a_r:4 
+00:18.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+00:19.300	ID:2	RPL: DIO Timer triggered
+00:19.300	ID:2	RPL: DIO Timer interval doubled 14
+00:19.300	ID:2	RPL: Scheduling DIO timer 10974 ticks in future (Interval)
+00:19.300	ID:2	RPL: rank 768 dioint 14, 1 nbr(s)
+00:19.300	ID:2	RPL: nbr   4   512,   256 =>   768 * (last tx 0 min ago)
+00:19.300	ID:2	RPL: end of list
+00:25.874	ID:3	RPL: DIO Timer triggered
+00:25.874	ID:3	RPL: Sending prefix info in DIO for aaaa::
+00:25.874	ID:3	RPL: Sending a multicast-DIO with rank 256
+00:25.874	ID:3	dis_s:0 dis_r:0 dio_s:3 dio_r:4 dao_s:0 dao_r:6 dao_a_s:6 dao_a_r:0 
+00:25.874	ID:3	RPL: Scheduling DIO timer 3697 ticks in future (sent)
+00:25.874	ID:3	RPL: rank 256 dioint 14, 2 nbr(s)
+00:25.874	ID:3	RPL: end of list
+00:25.879	ID:1	RPL: Received a DIO from fe80::203:3:3:3
+00:25.879	ID:1	RPL: Neighbor already in neighbor cache
+00:25.879	ID:1	RPL: Incoming DIO (id, ver, rank) = (30,240,256)
+00:25.879	ID:1	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+00:25.879	ID:1	RPL: DIO option 4, length: 14
+00:25.879	ID:1	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+00:25.879	ID:1	RPL: DIO option 8, length: 30
+00:25.879	ID:1	RPL: Copying prefix information
+00:25.879	ID:1	Prefix Information:aaaa::
+00:25.879	ID:1	RPL : Prefix announced in DIO
+00:25.879	ID:1	RPL: Prefix set - will announce this in DIOs
+00:25.879	ID:1	rpl_set_prefix - prefix NON-NULL
+00:25.879	ID:1	RPL: Received consistent DIO
+00:25.879	ID:1	RPL: preferred DAG aaaa::203:3:3:3, rank 512, min_rank 512, parent rank 256, parent etx 4294967295, link metric 256, instance etx 0
+00:25.879	ID:1	RPL: Scheduling DAO timer 2602 ticks in the future
+00:25.879	ID:1	dis_s:0 dis_r:0 dio_s:2 dio_r:3 dao_s:2 dao_r:0 dao_a_s:0 dao_a_r:2 
+00:25.879	ID:4	RPL: Received a DIO from fe80::203:3:3:3
+00:25.879	ID:4	RPL: Neighbor already in neighbor cache
+00:25.879	ID:4	RPL: Incoming DIO (id, ver, rank) = (30,240,256)
+00:25.879	ID:4	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+00:25.879	ID:4	RPL: DIO option 4, length: 14
+00:25.879	ID:4	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+00:25.879	ID:4	RPL: DIO option 8, length: 30
+00:25.879	ID:4	RPL: Copying prefix information
+00:25.879	ID:4	Prefix Information:aaaa::
+00:25.879	ID:4	RPL : Prefix announced in DIO
+00:25.879	ID:4	RPL: Prefix set - will announce this in DIOs
+00:25.879	ID:4	rpl_set_prefix - prefix NON-NULL
+00:25.879	ID:4	RPL: Received consistent DIO
+00:25.879	ID:4	RPL: preferred DAG aaaa::203:3:3:3, rank 512, min_rank 512, parent rank 256, parent etx 4294967295, link metric 256, instance etx 0
+00:25.879	ID:4	RPL: Scheduling DAO timer 4999 ticks in the future
+00:25.879	ID:4	dis_s:0 dis_r:1 dio_s:2 dio_r:5 dao_s:4 dao_r:2 dao_a_s:2 dao_a_r:4 
+00:26.304	ID:1	RPL: DIO Timer triggered
+00:26.304	ID:1	RPL: Sending prefix info in DIO for aaaa::
+00:26.304	ID:1	RPL: Sending a multicast-DIO with rank 512
+00:26.304	ID:1	dis_s:0 dis_r:0 dio_s:3 dio_r:3 dao_s:2 dao_r:0 dao_a_s:0 dao_a_r:2 
+00:26.304	ID:1	RPL: Scheduling DIO timer 5631 ticks in future (sent)
+00:26.304	ID:1	RPL: rank 512 dioint 14, 1 nbr(s)
+00:26.304	ID:1	RPL: nbr   3   256,   256 =>   512 * (last tx 0 min ago)
+00:26.304	ID:1	RPL: end of list
+00:26.309	ID:3	RPL: Received a DIO from fe80::201:1:1:1
+00:26.309	ID:3	RPL: Neighbor already in neighbor cache
+00:26.309	ID:3	RPL: Incoming DIO (id, ver, rank) = (30,240,512)
+00:26.309	ID:3	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+00:26.309	ID:3	RPL: DIO option 4, length: 14
+00:26.309	ID:3	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+00:26.309	ID:3	RPL: DIO option 8, length: 30
+00:26.309	ID:3	RPL: Copying prefix information
+00:26.309	ID:3	Prefix Information:aaaa::
+00:26.309	ID:3	RPL : Prefix announced in DIO
+00:26.309	ID:3	RPL: Prefix set - will announce this in DIOs
+00:26.309	ID:3	rpl_set_prefix - prefix NON-NULL
+00:26.309	ID:3	dis_s:0 dis_r:0 dio_s:3 dio_r:5 dao_s:0 dao_r:6 dao_a_s:6 dao_a_r:0 
+00:26.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+00:26.382	ID:1	RPL: rpl_process_parent_event recalculate_ranks
+00:28.481	ID:1	RPL: handle_dao_timer - sending DAO
+00:28.481	ID:1	RPL: Sending DAO with prefix aaaa::201:1:1:1 to fe80::203:3:3:3
+00:28.481	ID:1	dis_s:0 dis_r:0 dio_s:3 dio_r:3 dao_s:3 dao_r:0 dao_a_s:0 dao_a_r:2 
+00:28.487	ID:3	RPL: Received a DAO from fe80::201:1:1:1
+00:28.487	ID:3	RPL: DAO from unicast
+00:28.487	ID:3	RPL: DAO flag: 192, option type: 6, lifetime: 255, prefix length: 128 prefix: aaaa::201:1:1:1
+00:28.487	ID:3	RPL: adding DAO route
+00:28.487	ID:3	RPL: Neighbor already in neighbor cache
+00:28.487	ID:3	RPL: Added a route to aaaa::201:1:1:1/128 via fe80::201:1:1:1
+00:28.487	ID:3	RPL: Sending a DAO ACK with sequence number 243 to fe80::201:1:1:1
+00:28.487	ID:3	dis_s:0 dis_r:0 dio_s:3 dio_r:5 dao_s:0 dao_r:6 dao_a_s:7 dao_a_r:0 
+00:28.487	ID:3	dis_s:0 dis_r:0 dio_s:3 dio_r:5 dao_s:0 dao_r:7 dao_a_s:7 dao_a_r:0 
+00:28.488	ID:1	RPL: rpl_link_neighbor_callback triggering update
+00:28.488	ID:1	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+00:28.491	ID:1	RPL: Received a DAO ACK with sequence number 243 and status 0 from fe80::203:3:3:3
+00:28.491	ID:1	dis_s:0 dis_r:0 dio_s:3 dio_r:3 dao_s:3 dao_r:0 dao_a_s:0 dao_a_r:3 
+00:29.382	ID:1	RPL: rpl_process_parent_event recalculate_ranks
+00:29.571	ID:3	RPL: DIO Timer triggered
+00:29.571	ID:3	RPL: DIO Timer interval doubled 15
+00:29.571	ID:3	RPL: Scheduling DIO timer 24438 ticks in future (Interval)
+00:29.571	ID:3	RPL: rank 256 dioint 15, 2 nbr(s)
+00:29.571	ID:3	RPL: end of list
+00:30.114	ID:4	RPL: DIO Timer triggered
+00:30.114	ID:4	RPL: Sending prefix info in DIO for aaaa::
+00:30.114	ID:4	RPL: Sending a multicast-DIO with rank 512
+00:30.114	ID:4	dis_s:0 dis_r:1 dio_s:3 dio_r:5 dao_s:4 dao_r:2 dao_a_s:2 dao_a_r:4 
+00:30.114	ID:4	RPL: Scheduling DIO timer 1821 ticks in future (sent)
+00:30.114	ID:4	RPL: rank 512 dioint 14, 2 nbr(s)
+00:30.114	ID:4	RPL: nbr   3   256,   256 =>   512 * (last tx 0 min ago)
+00:30.114	ID:4	RPL: nbr   2   768,   256 =>  1024   (last tx 0 min ago)
+00:30.114	ID:4	RPL: end of list
+00:30.119	ID:2	RPL: Received a DIO from fe80::204:4:4:4
+00:30.119	ID:2	RPL: Neighbor already in neighbor cache
+00:30.119	ID:2	RPL: Incoming DIO (id, ver, rank) = (30,240,512)
+00:30.119	ID:2	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+00:30.119	ID:2	RPL: DIO option 4, length: 14
+00:30.119	ID:2	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+00:30.119	ID:2	RPL: DIO option 8, length: 30
+00:30.119	ID:2	RPL: Copying prefix information
+00:30.119	ID:2	Prefix Information:aaaa::
+00:30.119	ID:2	RPL : Prefix announced in DIO
+00:30.119	ID:2	RPL: Prefix set - will announce this in DIOs
+00:30.119	ID:2	rpl_set_prefix - prefix NON-NULL
+00:30.119	ID:2	RPL: Received consistent DIO
+00:30.119	ID:2	RPL: preferred DAG aaaa::203:3:3:3, rank 768, min_rank 768, parent rank 512, parent etx 4294967295, link metric 256, instance etx 0
+00:30.119	ID:2	RPL: Scheduling DAO timer 5866 ticks in the future
+00:30.119	ID:2	dis_s:1 dis_r:0 dio_s:2 dio_r:3 dao_s:2 dao_r:0 dao_a_s:0 dao_a_r:2 
+00:30.119	ID:3	RPL: Received a DIO from fe80::204:4:4:4
+00:30.119	ID:3	RPL: Neighbor already in neighbor cache
+00:30.119	ID:3	RPL: Incoming DIO (id, ver, rank) = (30,240,512)
+00:30.119	ID:3	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+00:30.119	ID:3	RPL: DIO option 4, length: 14
+00:30.119	ID:3	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+00:30.119	ID:3	RPL: DIO option 8, length: 30
+00:30.119	ID:3	RPL: Copying prefix information
+00:30.119	ID:3	Prefix Information:aaaa::
+00:30.119	ID:3	RPL : Prefix announced in DIO
+00:30.119	ID:3	RPL: Prefix set - will announce this in DIOs
+00:30.119	ID:3	rpl_set_prefix - prefix NON-NULL
+00:30.119	ID:3	dis_s:0 dis_r:0 dio_s:3 dio_r:6 dao_s:0 dao_r:7 dao_a_s:7 dao_a_r:0 
+00:30.236	ID:2	RPL: rpl_process_parent_event recalculate_ranks
+00:30.274	ID:2	RPL: DIO Timer triggered
+00:30.274	ID:2	RPL: Sending prefix info in DIO for aaaa::
+00:30.274	ID:2	RPL: Sending a multicast-DIO with rank 768
+00:30.274	ID:2	dis_s:1 dis_r:0 dio_s:3 dio_r:3 dao_s:2 dao_r:0 dao_a_s:0 dao_a_r:2 
+00:30.274	ID:2	RPL: Scheduling DIO timer 5410 ticks in future (sent)
+00:30.274	ID:2	RPL: rank 768 dioint 14, 1 nbr(s)
+00:30.274	ID:2	RPL: nbr   4   512,   256 =>   768 * (last tx 0 min ago)
+00:30.274	ID:2	RPL: end of list
+00:30.279	ID:4	RPL: Received a DIO from fe80::202:2:2:2
+00:30.279	ID:4	RPL: Neighbor already in neighbor cache
+00:30.279	ID:4	RPL: Incoming DIO (id, ver, rank) = (30,240,768)
+00:30.279	ID:4	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+00:30.279	ID:4	RPL: DIO option 4, length: 14
+00:30.279	ID:4	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+00:30.279	ID:4	RPL: DIO option 8, length: 30
+00:30.279	ID:4	RPL: Copying prefix information
+00:30.279	ID:4	Prefix Information:aaaa::
+00:30.279	ID:4	RPL : Prefix announced in DIO
+00:30.279	ID:4	RPL: Prefix set - will announce this in DIOs
+00:30.279	ID:4	rpl_set_prefix - prefix NON-NULL
+00:30.279	ID:4	RPL: Received consistent DIO
+00:30.279	ID:4	RPL: preferred DAG aaaa::203:3:3:3, rank 512, min_rank 512, parent rank 768, parent etx 4294967295, link metric 256, instance etx 0
+00:30.279	ID:4	dis_s:0 dis_r:1 dio_s:3 dio_r:6 dao_s:4 dao_r:2 dao_a_s:2 dao_a_r:4 
+00:30.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+00:30.878	ID:4	RPL: handle_dao_timer - sending DAO
+00:30.878	ID:4	RPL: Sending DAO with prefix aaaa::204:4:4:4 to fe80::203:3:3:3
+00:30.878	ID:4	dis_s:0 dis_r:1 dio_s:3 dio_r:6 dao_s:5 dao_r:2 dao_a_s:2 dao_a_r:4 
+00:30.883	ID:3	RPL: Received a DAO from fe80::204:4:4:4
+00:30.883	ID:3	RPL: DAO from unicast
+00:30.883	ID:3	RPL: DAO flag: 192, option type: 6, lifetime: 255, prefix length: 128 prefix: aaaa::204:4:4:4
+00:30.883	ID:3	RPL: adding DAO route
+00:30.883	ID:3	RPL: Neighbor already in neighbor cache
+00:30.883	ID:3	RPL: Added a route to aaaa::204:4:4:4/128 via fe80::204:4:4:4
+00:30.883	ID:3	RPL: Sending a DAO ACK with sequence number 243 to fe80::204:4:4:4
+00:30.883	ID:3	dis_s:0 dis_r:0 dio_s:3 dio_r:6 dao_s:0 dao_r:7 dao_a_s:8 dao_a_r:0 
+00:30.883	ID:3	dis_s:0 dis_r:0 dio_s:3 dio_r:6 dao_s:0 dao_r:8 dao_a_s:8 dao_a_r:0 
+00:30.884	ID:4	RPL: rpl_link_neighbor_callback triggering update
+00:30.884	ID:4	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+00:30.887	ID:4	RPL: Received a DAO ACK with sequence number 243 and status 0 from fe80::203:3:3:3
+00:30.887	ID:4	dis_s:0 dis_r:1 dio_s:3 dio_r:6 dao_s:5 dao_r:2 dao_a_s:2 dao_a_r:5 
+00:31.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+00:31.935	ID:4	RPL: DIO Timer triggered
+00:31.935	ID:4	RPL: DIO Timer interval doubled 15
+00:31.935	ID:4	RPL: Scheduling DIO timer 18910 ticks in future (Interval)
+00:31.935	ID:4	RPL: rank 512 dioint 15, 2 nbr(s)
+00:31.935	ID:4	RPL: nbr   3   256,   256 =>   512 * (last tx 0 min ago)
+00:31.935	ID:4	RPL: nbr   2   768,   256 =>  1024   (last tx 0 min ago)
+00:31.935	ID:4	RPL: end of list
+00:31.935	ID:1	RPL: DIO Timer triggered
+00:31.935	ID:1	RPL: DIO Timer interval doubled 15
+00:31.935	ID:1	RPL: Scheduling DIO timer 17840 ticks in future (Interval)
+00:31.935	ID:1	RPL: rank 512 dioint 15, 1 nbr(s)
+00:31.935	ID:1	RPL: nbr   3   256,   256 =>   512 * (last tx 0 min ago)
+00:31.935	ID:1	RPL: end of list
+00:35.684	ID:2	RPL: DIO Timer triggered
+00:35.684	ID:2	RPL: DIO Timer interval doubled 15
+00:35.684	ID:2	RPL: Scheduling DIO timer 17411 ticks in future (Interval)
+00:35.684	ID:2	RPL: rank 768 dioint 15, 1 nbr(s)
+00:35.684	ID:2	RPL: nbr   4   512,   256 =>   768 * (last tx 0 min ago)
+00:35.684	ID:2	RPL: end of list
+00:35.985	ID:2	RPL: handle_dao_timer - sending DAO
+00:35.985	ID:2	RPL: Sending DAO with prefix aaaa::202:2:2:2 to fe80::204:4:4:4
+00:35.985	ID:2	dis_s:1 dis_r:0 dio_s:3 dio_r:3 dao_s:3 dao_r:0 dao_a_s:0 dao_a_r:2 
+00:35.991	ID:4	RPL: Received a DAO from fe80::202:2:2:2
+00:35.991	ID:4	RPL: DAO from unicast
+00:35.991	ID:4	RPL: DAO flag: 192, option type: 6, lifetime: 255, prefix length: 128 prefix: aaaa::202:2:2:2
+00:35.991	ID:4	RPL: adding DAO route
+00:35.991	ID:4	RPL: Neighbor already in neighbor cache
+00:35.991	ID:4	RPL: Added a route to aaaa::202:2:2:2/128 via fe80::202:2:2:2
+00:35.991	ID:4	RPL: Forwarding DAO to parent fe80::203:3:3:3
+00:35.991	ID:4	dis_s:0 dis_r:1 dio_s:3 dio_r:6 dao_s:6 dao_r:2 dao_a_s:2 dao_a_r:5        
+00:35.991	ID:4	RPL: Sending a DAO ACK with sequence number 243 to fe80::202:2:2:2
+00:35.991	ID:4	dis_s:0 dis_r:1 dio_s:3 dio_r:6 dao_s:6 dao_r:2 dao_a_s:3 dao_a_r:5 
+00:35.991	ID:4	dis_s:0 dis_r:1 dio_s:3 dio_r:6 dao_s:6 dao_r:3 dao_a_s:3 dao_a_r:5 
+00:35.992	ID:2	RPL: rpl_link_neighbor_callback triggering update
+00:35.992	ID:2	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+00:35.995	ID:2	RPL: Received a DAO ACK with sequence number 243 and status 0 from fe80::204:4:4:4
+00:35.995	ID:2	dis_s:1 dis_r:0 dio_s:3 dio_r:3 dao_s:3 dao_r:0 dao_a_s:0 dao_a_r:3 
+00:35.996	ID:4	RPL: rpl_link_neighbor_callback triggering update
+00:35.996	ID:4	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+00:36.001	ID:3	RPL: Received a DAO from fe80::204:4:4:4
+00:36.001	ID:3	RPL: DAO from unicast
+00:36.001	ID:3	RPL: DAO flag: 192, option type: 6, lifetime: 255, prefix length: 128 prefix: aaaa::202:2:2:2
+00:36.001	ID:3	RPL: adding DAO route
+00:36.001	ID:3	RPL: Neighbor already in neighbor cache
+00:36.001	ID:3	RPL: Added a route to aaaa::202:2:2:2/128 via fe80::204:4:4:4
+00:36.001	ID:3	RPL: Sending a DAO ACK with sequence number 243 to fe80::204:4:4:4
+00:36.001	ID:3	dis_s:0 dis_r:0 dio_s:3 dio_r:6 dao_s:0 dao_r:8 dao_a_s:9 dao_a_r:0 
+00:36.001	ID:3	dis_s:0 dis_r:0 dio_s:3 dio_r:6 dao_s:0 dao_r:9 dao_a_s:9 dao_a_r:0 
+00:36.002	ID:4	RPL: rpl_link_neighbor_callback triggering update
+00:36.002	ID:4	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+00:36.006	ID:4	RPL: Received a DAO ACK with sequence number 243 and status 0 from fe80::203:3:3:3
+00:36.006	ID:4	dis_s:0 dis_r:1 dio_s:3 dio_r:6 dao_s:6 dao_r:3 dao_a_s:3 dao_a_r:6 
+00:36.236	ID:2	RPL: rpl_process_parent_event recalculate_ranks
+00:36.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+00:36.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+00:49.775	ID:1	RPL: DIO Timer triggered
+00:49.775	ID:1	RPL: Sending prefix info in DIO for aaaa::
+00:49.775	ID:1	RPL: Sending a multicast-DIO with rank 512
+00:49.775	ID:1	dis_s:0 dis_r:0 dio_s:4 dio_r:3 dao_s:3 dao_r:0 dao_a_s:0 dao_a_r:3 
+00:49.775	ID:1	RPL: Scheduling DIO timer 14928 ticks in future (sent)
+00:49.775	ID:1	RPL: rank 512 dioint 15, 1 nbr(s)
+00:49.775	ID:1	RPL: nbr   3   256,   256 =>   512 * (last tx 0 min ago)
+00:49.775	ID:1	RPL: end of list
+00:49.780	ID:3	RPL: Received a DIO from fe80::201:1:1:1
+00:49.780	ID:3	RPL: Neighbor already in neighbor cache
+00:49.780	ID:3	RPL: Incoming DIO (id, ver, rank) = (30,240,512)
+00:49.780	ID:3	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+00:49.780	ID:3	RPL: DIO option 4, length: 14
+00:49.780	ID:3	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+00:49.780	ID:3	RPL: DIO option 8, length: 30
+00:49.780	ID:3	RPL: Copying prefix information
+00:49.780	ID:3	Prefix Information:aaaa::
+00:49.780	ID:3	RPL : Prefix announced in DIO
+00:49.780	ID:3	RPL: Prefix set - will announce this in DIOs
+00:49.780	ID:3	rpl_set_prefix - prefix NON-NULL
+00:49.780	ID:3	dis_s:0 dis_r:0 dio_s:3 dio_r:7 dao_s:0 dao_r:9 dao_a_s:9 dao_a_r:0 
+00:50.845	ID:4	RPL: DIO Timer triggered
+00:50.845	ID:4	RPL: Sending prefix info in DIO for aaaa::
+00:50.845	ID:4	RPL: Sending a multicast-DIO with rank 512
+00:50.845	ID:4	dis_s:0 dis_r:1 dio_s:4 dio_r:6 dao_s:6 dao_r:3 dao_a_s:3 dao_a_r:6 
+00:50.845	ID:4	RPL: Scheduling DIO timer 13858 ticks in future (sent)
+00:50.845	ID:4	RPL: rank 512 dioint 15, 2 nbr(s)
+00:50.845	ID:4	RPL: nbr   3   256,   256 =>   512 * (last tx 0 min ago)
+00:50.845	ID:4	RPL: nbr   2   768,   256 =>  1024   (last tx 0 min ago)
+00:50.845	ID:4	RPL: end of list
+00:50.850	ID:2	RPL: Received a DIO from fe80::204:4:4:4
+00:50.850	ID:2	RPL: Neighbor already in neighbor cache
+00:50.850	ID:2	RPL: Incoming DIO (id, ver, rank) = (30,240,512)
+00:50.850	ID:2	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+00:50.850	ID:2	RPL: DIO option 4, length: 14
+00:50.850	ID:2	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+00:50.850	ID:2	RPL: DIO option 8, length: 30
+00:50.850	ID:2	RPL: Copying prefix information
+00:50.850	ID:2	Prefix Information:aaaa::
+00:50.850	ID:2	RPL : Prefix announced in DIO
+00:50.850	ID:2	RPL: Prefix set - will announce this in DIOs
+00:50.850	ID:2	rpl_set_prefix - prefix NON-NULL
+00:50.850	ID:2	RPL: Received consistent DIO
+00:50.850	ID:2	RPL: preferred DAG aaaa::203:3:3:3, rank 768, min_rank 768, parent rank 512, parent etx 4294967295, link metric 256, instance etx 0
+00:50.850	ID:2	RPL: Scheduling DAO timer 3138 ticks in the future
+00:50.850	ID:2	dis_s:1 dis_r:0 dio_s:3 dio_r:4 dao_s:3 dao_r:0 dao_a_s:0 dao_a_r:3 
+00:50.850	ID:3	RPL: Received a DIO from fe80::204:4:4:4
+00:50.850	ID:3	RPL: Neighbor already in neighbor cache
+00:50.850	ID:3	RPL: Incoming DIO (id, ver, rank) = (30,240,512)
+00:50.850	ID:3	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+00:50.850	ID:3	RPL: DIO option 4, length: 14
+00:50.850	ID:3	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+00:50.850	ID:3	RPL: DIO option 8, length: 30
+00:50.850	ID:3	RPL: Copying prefix information
+00:50.850	ID:3	Prefix Information:aaaa::
+00:50.850	ID:3	RPL : Prefix announced in DIO
+00:50.850	ID:3	RPL: Prefix set - will announce this in DIOs
+00:50.850	ID:3	rpl_set_prefix - prefix NON-NULL
+00:50.850	ID:3	dis_s:0 dis_r:0 dio_s:3 dio_r:8 dao_s:0 dao_r:9 dao_a_s:9 dao_a_r:0 
+00:51.236	ID:2	RPL: rpl_process_parent_event recalculate_ranks
+00:53.095	ID:2	RPL: DIO Timer triggered
+00:53.095	ID:2	RPL: Sending prefix info in DIO for aaaa::
+00:53.095	ID:2	RPL: Sending a multicast-DIO with rank 768
+00:53.095	ID:2	dis_s:1 dis_r:0 dio_s:4 dio_r:4 dao_s:3 dao_r:0 dao_a_s:0 dao_a_r:3 
+00:53.095	ID:2	RPL: Scheduling DIO timer 15357 ticks in future (sent)
+00:53.095	ID:2	RPL: rank 768 dioint 15, 1 nbr(s)
+00:53.095	ID:2	RPL: nbr   4   512,   256 =>   768 * (last tx 0 min ago)
+00:53.095	ID:2	RPL: end of list
+00:53.100	ID:4	RPL: Received a DIO from fe80::202:2:2:2
+00:53.100	ID:4	RPL: Neighbor already in neighbor cache
+00:53.100	ID:4	RPL: Incoming DIO (id, ver, rank) = (30,240,768)
+00:53.100	ID:4	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+00:53.100	ID:4	RPL: DIO option 4, length: 14
+00:53.100	ID:4	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+00:53.100	ID:4	RPL: DIO option 8, length: 30
+00:53.100	ID:4	RPL: Copying prefix information
+00:53.100	ID:4	Prefix Information:aaaa::
+00:53.100	ID:4	RPL : Prefix announced in DIO
+00:53.100	ID:4	RPL: Prefix set - will announce this in DIOs
+00:53.100	ID:4	rpl_set_prefix - prefix NON-NULL
+00:53.100	ID:4	RPL: Received consistent DIO
+00:53.100	ID:4	RPL: preferred DAG aaaa::203:3:3:3, rank 512, min_rank 512, parent rank 768, parent etx 4294967295, link metric 256, instance etx 0
+00:53.100	ID:4	dis_s:0 dis_r:1 dio_s:4 dio_r:7 dao_s:6 dao_r:3 dao_a_s:3 dao_a_r:6 
+00:53.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+00:53.988	ID:2	RPL: handle_dao_timer - sending DAO
+00:53.988	ID:2	RPL: Sending DAO with prefix aaaa::202:2:2:2 to fe80::204:4:4:4
+00:53.988	ID:2	dis_s:1 dis_r:0 dio_s:4 dio_r:4 dao_s:4 dao_r:0 dao_a_s:0 dao_a_r:3 
+00:53.993	ID:4	RPL: Received a DAO from fe80::202:2:2:2
+00:53.993	ID:4	RPL: DAO from unicast
+00:53.993	ID:4	RPL: DAO flag: 192, option type: 6, lifetime: 255, prefix length: 128 prefix: aaaa::202:2:2:2
+00:53.993	ID:4	RPL: adding DAO route
+00:53.993	ID:4	RPL: Neighbor already in neighbor cache
+00:53.993	ID:4	RPL: Added a route to aaaa::202:2:2:2/128 via fe80::202:2:2:2
+00:53.993	ID:4	RPL: Forwarding DAO to parent fe80::203:3:3:3
+00:53.993	ID:4	dis_s:0 dis_r:1 dio_s:4 dio_r:7 dao_s:7 dao_r:3 dao_a_s:3 dao_a_r:6        
+00:53.993	ID:4	RPL: Sending a DAO ACK with sequence number 244 to fe80::202:2:2:2
+00:53.993	ID:4	dis_s:0 dis_r:1 dio_s:4 dio_r:7 dao_s:7 dao_r:3 dao_a_s:4 dao_a_r:6 
+00:53.993	ID:4	dis_s:0 dis_r:1 dio_s:4 dio_r:7 dao_s:7 dao_r:4 dao_a_s:4 dao_a_r:6 
+00:53.994	ID:2	RPL: rpl_link_neighbor_callback triggering update
+00:53.994	ID:2	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+00:53.997	ID:2	RPL: Received a DAO ACK with sequence number 244 and status 0 from fe80::204:4:4:4
+00:53.997	ID:2	dis_s:1 dis_r:0 dio_s:4 dio_r:4 dao_s:4 dao_r:0 dao_a_s:0 dao_a_r:4 
+00:53.998	ID:4	RPL: rpl_link_neighbor_callback triggering update
+00:53.998	ID:4	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+00:54.004	ID:3	RPL: Received a DAO from fe80::204:4:4:4
+00:54.004	ID:3	RPL: DAO from unicast
+00:54.004	ID:3	RPL: DAO flag: 192, option type: 6, lifetime: 255, prefix length: 128 prefix: aaaa::202:2:2:2
+00:54.004	ID:3	RPL: adding DAO route
+00:54.004	ID:3	RPL: Neighbor already in neighbor cache
+00:54.004	ID:3	RPL: Added a route to aaaa::202:2:2:2/128 via fe80::204:4:4:4
+00:54.004	ID:3	RPL: Sending a DAO ACK with sequence number 244 to fe80::204:4:4:4
+00:54.004	ID:3	dis_s:0 dis_r:0 dio_s:3 dio_r:8 dao_s:0 dao_r:9 dao_a_s:10 dao_a_r:0 
+00:54.004	ID:3	dis_s:0 dis_r:0 dio_s:3 dio_r:8 dao_s:0 dao_r:10 dao_a_s:10 dao_a_r:0 
+00:54.005	ID:4	RPL: rpl_link_neighbor_callback triggering update
+00:54.005	ID:4	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+00:54.008	ID:4	RPL: Received a DAO ACK with sequence number 244 and status 0 from fe80::203:3:3:3
+00:54.008	ID:4	dis_s:0 dis_r:1 dio_s:4 dio_r:7 dao_s:7 dao_r:4 dao_a_s:4 dao_a_r:7 
+00:54.009	ID:3	RPL: DIO Timer triggered
+00:54.009	ID:3	RPL: Sending prefix info in DIO for aaaa::
+00:54.009	ID:3	RPL: Sending a multicast-DIO with rank 256
+00:54.009	ID:3	dis_s:0 dis_r:0 dio_s:4 dio_r:8 dao_s:0 dao_r:10 dao_a_s:10 dao_a_r:0 
+00:54.009	ID:3	RPL: Scheduling DIO timer 8330 ticks in future (sent)
+00:54.009	ID:3	RPL: rank 256 dioint 15, 2 nbr(s)
+00:54.009	ID:3	RPL: end of list
+00:54.015	ID:1	RPL: Received a DIO from fe80::203:3:3:3
+00:54.015	ID:1	RPL: Neighbor already in neighbor cache
+00:54.015	ID:1	RPL: Incoming DIO (id, ver, rank) = (30,240,256)
+00:54.015	ID:1	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+00:54.015	ID:1	RPL: DIO option 4, length: 14
+00:54.015	ID:1	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+00:54.015	ID:1	RPL: DIO option 8, length: 30
+00:54.015	ID:1	RPL: Copying prefix information
+00:54.015	ID:1	Prefix Information:aaaa::
+00:54.015	ID:1	RPL : Prefix announced in DIO
+00:54.015	ID:1	RPL: Prefix set - will announce this in DIOs
+00:54.015	ID:1	rpl_set_prefix - prefix NON-NULL
+00:54.015	ID:1	RPL: Received consistent DIO
+00:54.015	ID:1	RPL: preferred DAG aaaa::203:3:3:3, rank 512, min_rank 512, parent rank 256, parent etx 4294967295, link metric 256, instance etx 0
+00:54.015	ID:1	RPL: Scheduling DAO timer 4373 ticks in the future
+00:54.015	ID:1	dis_s:0 dis_r:0 dio_s:4 dio_r:4 dao_s:3 dao_r:0 dao_a_s:0 dao_a_r:3 
+00:54.015	ID:4	RPL: Received a DIO from fe80::203:3:3:3
+00:54.015	ID:4	RPL: Neighbor already in neighbor cache
+00:54.015	ID:4	RPL: Incoming DIO (id, ver, rank) = (30,240,256)
+00:54.015	ID:4	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+00:54.015	ID:4	RPL: DIO option 4, length: 14
+00:54.015	ID:4	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+00:54.015	ID:4	RPL: DIO option 8, length: 30
+00:54.015	ID:4	RPL: Copying prefix information
+00:54.015	ID:4	Prefix Information:aaaa::
+00:54.015	ID:4	RPL : Prefix announced in DIO
+00:54.015	ID:4	RPL: Prefix set - will announce this in DIOs
+00:54.015	ID:4	rpl_set_prefix - prefix NON-NULL
+00:54.015	ID:4	RPL: Received consistent DIO
+00:54.015	ID:4	RPL: preferred DAG aaaa::203:3:3:3, rank 512, min_rank 512, parent rank 256, parent etx 4294967295, link metric 256, instance etx 0
+00:54.015	ID:4	RPL: Scheduling DAO timer 5750 ticks in the future
+00:54.015	ID:4	dis_s:0 dis_r:1 dio_s:4 dio_r:8 dao_s:7 dao_r:4 dao_a_s:4 dao_a_r:7 
+00:54.236	ID:2	RPL: rpl_process_parent_event recalculate_ranks
+00:54.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+00:54.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+00:54.382	ID:1	RPL: rpl_process_parent_event recalculate_ranks
+00:58.388	ID:1	RPL: handle_dao_timer - sending DAO
+00:58.388	ID:1	RPL: Sending DAO with prefix aaaa::201:1:1:1 to fe80::203:3:3:3
+00:58.388	ID:1	dis_s:0 dis_r:0 dio_s:4 dio_r:4 dao_s:4 dao_r:0 dao_a_s:0 dao_a_r:3 
+00:58.393	ID:3	RPL: Received a DAO from fe80::201:1:1:1
+00:58.393	ID:3	RPL: DAO from unicast
+00:58.393	ID:3	RPL: DAO flag: 192, option type: 6, lifetime: 255, prefix length: 128 prefix: aaaa::201:1:1:1
+00:58.393	ID:3	RPL: adding DAO route
+00:58.393	ID:3	RPL: Neighbor already in neighbor cache
+00:58.393	ID:3	RPL: Added a route to aaaa::201:1:1:1/128 via fe80::201:1:1:1
+00:58.393	ID:3	RPL: Sending a DAO ACK with sequence number 244 to fe80::201:1:1:1
+00:58.393	ID:3	dis_s:0 dis_r:0 dio_s:4 dio_r:8 dao_s:0 dao_r:10 dao_a_s:11 dao_a_r:0 
+00:58.393	ID:3	dis_s:0 dis_r:0 dio_s:4 dio_r:8 dao_s:0 dao_r:11 dao_a_s:11 dao_a_r:0 
+00:58.394	ID:1	RPL: rpl_link_neighbor_callback triggering update
+00:58.394	ID:1	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+00:58.398	ID:1	RPL: Received a DAO ACK with sequence number 244 and status 0 from fe80::203:3:3:3
+00:58.398	ID:1	dis_s:0 dis_r:0 dio_s:4 dio_r:4 dao_s:4 dao_r:0 dao_a_s:0 dao_a_r:4 
+00:59.382	ID:1	RPL: rpl_process_parent_event recalculate_ranks
+00:59.765	ID:4	RPL: handle_dao_timer - sending DAO
+00:59.765	ID:4	RPL: Sending DAO with prefix aaaa::204:4:4:4 to fe80::203:3:3:3
+00:59.765	ID:4	dis_s:0 dis_r:1 dio_s:4 dio_r:8 dao_s:8 dao_r:4 dao_a_s:4 dao_a_r:7 
+00:59.770	ID:3	RPL: Received a DAO from fe80::204:4:4:4
+00:59.770	ID:3	RPL: DAO from unicast
+00:59.770	ID:3	RPL: DAO flag: 192, option type: 6, lifetime: 255, prefix length: 128 prefix: aaaa::204:4:4:4
+00:59.770	ID:3	RPL: adding DAO route
+00:59.770	ID:3	RPL: Neighbor already in neighbor cache
+00:59.770	ID:3	RPL: Added a route to aaaa::204:4:4:4/128 via fe80::204:4:4:4
+00:59.770	ID:3	RPL: Sending a DAO ACK with sequence number 244 to fe80::204:4:4:4
+00:59.770	ID:3	dis_s:0 dis_r:0 dio_s:4 dio_r:8 dao_s:0 dao_r:11 dao_a_s:12 dao_a_r:0 
+00:59.770	ID:3	dis_s:0 dis_r:0 dio_s:4 dio_r:8 dao_s:0 dao_r:12 dao_a_s:12 dao_a_r:0 
+00:59.771	ID:4	RPL: rpl_link_neighbor_callback triggering update
+00:59.771	ID:4	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+00:59.774	ID:4	RPL: Received a DAO ACK with sequence number 244 and status 0 from fe80::203:3:3:3
+00:59.774	ID:4	dis_s:0 dis_r:1 dio_s:4 dio_r:8 dao_s:8 dao_r:4 dao_a_s:4 dao_a_r:8 
+01:00.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+01:02.339	ID:3	RPL: DIO Timer triggered
+01:02.339	ID:3	RPL: DIO Timer interval doubled 16
+01:02.339	ID:3	RPL: Scheduling DIO timer 54333 ticks in future (Interval)
+01:02.339	ID:3	RPL: rank 256 dioint 16, 2 nbr(s)
+01:02.339	ID:3	RPL: end of list
+01:03.259	ID:2	Sending unicast to aaaa::201:1:1:1
+01:03.259	ID:2	RPL: Verifying the presence of the RPL header option
+01:03.259	ID:2	RPL: No hop-by-hop option found, creating it
+01:03.259	ID:2	#L 4 1; red
+01:03.259	ID:2	RPL: Updating RPL option
+01:03.264	ID:4	RPL: Packet going up, sender closer 0 (768 < 512)
+01:03.264	ID:4	RPL: Rank OK
+01:03.264	ID:4	RPL: Verifying the presence of the RPL header option
+01:03.264	ID:4	RPL: Updating RPL option
+01:03.264	ID:4	RPL option going up
+01:03.264	ID:4	#L 3 1; red
+01:03.265	ID:2	RPL: rpl_link_neighbor_callback triggering update
+01:03.265	ID:2	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+01:03.269	ID:3	RPL: Packet going up, sender closer 0 (512 < 256)
+01:03.269	ID:3	RPL: Rank OK
+01:03.269	ID:3	RPL: Verifying the presence of the RPL header option
+01:03.269	ID:3	RPL: Updating RPL option
+01:03.269	ID:3	RPL option going down
+01:03.269	ID:3	#L 1 1; red
+01:03.270	ID:4	RPL: rpl_link_neighbor_callback triggering update
+01:03.270	ID:4	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+01:03.274	ID:1	RPL: Packet going down, sender closer 1 (256 < 512)
+01:03.274	ID:1	RPL: Rank OK
+01:03.274	ID:1	Data received from aaaa::202:2:2:2 on port 1234 from port 1234 with length 10: 'Message 0'
+01:03.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+01:04.236	ID:2	RPL: rpl_process_parent_event recalculate_ranks
+01:04.703	ID:4	RPL: DIO Timer triggered
+01:04.703	ID:4	RPL: DIO Timer interval doubled 16
+01:04.703	ID:4	RPL: Scheduling DIO timer 50316 ticks in future (Interval)
+01:04.703	ID:4	RPL: rank 512 dioint 16, 2 nbr(s)
+01:04.703	ID:4	RPL: nbr   3   256,   256 =>   512 * (last tx 0 min ago)
+01:04.703	ID:4	RPL: nbr   2   768,   256 =>  1024   (last tx 0 min ago)
+01:04.703	ID:4	RPL: end of list
+01:04.703	ID:1	RPL: DIO Timer triggered
+01:04.703	ID:1	RPL: DIO Timer interval doubled 16
+01:04.703	ID:1	RPL: Scheduling DIO timer 65136 ticks in future (Interval)
+01:04.703	ID:1	RPL: rank 512 dioint 16, 1 nbr(s)
+01:04.703	ID:1	RPL: nbr   3   256,   256 =>   512 * (last tx 0 min ago)
+01:04.703	ID:1	RPL: end of list
+01:08.452	ID:2	RPL: DIO Timer triggered
+01:08.452	ID:2	RPL: DIO Timer interval doubled 16
+01:08.452	ID:2	RPL: Scheduling DIO timer 59160 ticks in future (Interval)
+01:08.452	ID:2	RPL: rank 768 dioint 16, 1 nbr(s)
+01:08.452	ID:2	RPL: nbr   4   512,   256 =>   768 * (last tx 0 min ago)
+01:08.452	ID:2	RPL: end of list
+01:26.684	ID:4	RPL: probing   2
+01:26.684	ID:4	RPL: Sending prefix info in DIO for aaaa::
+01:26.684	ID:4	RPL: Sending unicast-DIO with rank 512 to fe80::202:2:2:2
+01:26.684	ID:4	dis_s:0 dis_r:1 dio_s:5 dio_r:8 dao_s:8 dao_r:4 dao_a_s:4 dao_a_r:8 
+01:26.684	ID:4	RPL: rank 512 dioint 16, 2 nbr(s)
+01:26.684	ID:4	RPL: nbr   3   256,   256 =>   512 * (last tx 0 min ago)
+01:26.684	ID:4	RPL: nbr   2   768,   256 =>  1024   (last tx 0 min ago)
+01:26.684	ID:4	RPL: end of list
+01:26.691	ID:2	RPL: Received a DIO from fe80::204:4:4:4
+01:26.691	ID:2	RPL: Neighbor already in neighbor cache
+01:26.691	ID:2	RPL: Incoming DIO (id, ver, rank) = (30,240,512)
+01:26.691	ID:2	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+01:26.691	ID:2	RPL: DIO option 4, length: 14
+01:26.691	ID:2	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+01:26.691	ID:2	RPL: DIO option 8, length: 30
+01:26.691	ID:2	RPL: Copying prefix information
+01:26.691	ID:2	Prefix Information:aaaa::
+01:26.691	ID:2	RPL : Prefix announced in DIO
+01:26.691	ID:2	RPL: Prefix set - will announce this in DIOs
+01:26.691	ID:2	rpl_set_prefix - prefix NON-NULL
+01:26.691	ID:2	RPL: Received consistent DIO
+01:26.691	ID:2	RPL: preferred DAG aaaa::203:3:3:3, rank 768, min_rank 768, parent rank 512, parent etx 4294967295, link metric 256, instance etx 0
+01:26.691	ID:2	RPL: Scheduling DAO timer 3740 ticks in the future
+01:26.691	ID:2	dis_s:1 dis_r:0 dio_s:4 dio_r:5 dao_s:4 dao_r:0 dao_a_s:0 dao_a_r:4 
+01:26.692	ID:4	RPL: rpl_link_neighbor_callback triggering update
+01:26.692	ID:4	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+01:27.236	ID:2	RPL: rpl_process_parent_event recalculate_ranks
+01:27.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+01:30.431	ID:2	RPL: handle_dao_timer - sending DAO
+01:30.431	ID:2	RPL: Sending DAO with prefix aaaa::202:2:2:2 to fe80::204:4:4:4
+01:30.431	ID:2	dis_s:1 dis_r:0 dio_s:4 dio_r:5 dao_s:5 dao_r:0 dao_a_s:0 dao_a_r:4 
+01:30.436	ID:4	RPL: Received a DAO from fe80::202:2:2:2
+01:30.436	ID:4	RPL: DAO from unicast
+01:30.436	ID:4	RPL: DAO flag: 192, option type: 6, lifetime: 255, prefix length: 128 prefix: aaaa::202:2:2:2
+01:30.436	ID:4	RPL: adding DAO route
+01:30.436	ID:4	RPL: Neighbor already in neighbor cache
+01:30.436	ID:4	RPL: Added a route to aaaa::202:2:2:2/128 via fe80::202:2:2:2
+01:30.436	ID:4	RPL: Forwarding DAO to parent fe80::203:3:3:3
+01:30.436	ID:4	dis_s:0 dis_r:1 dio_s:5 dio_r:8 dao_s:9 dao_r:4 dao_a_s:4 dao_a_r:8        
+01:30.436	ID:4	RPL: Sending a DAO ACK with sequence number 245 to fe80::202:2:2:2
+01:30.436	ID:4	dis_s:0 dis_r:1 dio_s:5 dio_r:8 dao_s:9 dao_r:4 dao_a_s:5 dao_a_r:8 
+01:30.436	ID:4	dis_s:0 dis_r:1 dio_s:5 dio_r:8 dao_s:9 dao_r:5 dao_a_s:5 dao_a_r:8 
+01:30.437	ID:2	RPL: rpl_link_neighbor_callback triggering update
+01:30.437	ID:2	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+01:30.440	ID:2	RPL: Received a DAO ACK with sequence number 245 and status 0 from fe80::204:4:4:4
+01:30.440	ID:2	dis_s:1 dis_r:0 dio_s:4 dio_r:5 dao_s:5 dao_r:0 dao_a_s:0 dao_a_r:5 
+01:30.441	ID:4	RPL: rpl_link_neighbor_callback triggering update
+01:30.441	ID:4	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+01:30.447	ID:3	RPL: Received a DAO from fe80::204:4:4:4
+01:30.447	ID:3	RPL: DAO from unicast
+01:30.447	ID:3	RPL: DAO flag: 192, option type: 6, lifetime: 255, prefix length: 128 prefix: aaaa::202:2:2:2
+01:30.447	ID:3	RPL: adding DAO route
+01:30.447	ID:3	RPL: Neighbor already in neighbor cache
+01:30.447	ID:3	RPL: Added a route to aaaa::202:2:2:2/128 via fe80::204:4:4:4
+01:30.447	ID:3	RPL: Sending a DAO ACK with sequence number 245 to fe80::204:4:4:4
+01:30.447	ID:3	dis_s:0 dis_r:0 dio_s:4 dio_r:8 dao_s:0 dao_r:12 dao_a_s:13 dao_a_r:0 
+01:30.447	ID:3	dis_s:0 dis_r:0 dio_s:4 dio_r:8 dao_s:0 dao_r:13 dao_a_s:13 dao_a_r:0 
+01:30.448	ID:4	RPL: rpl_link_neighbor_callback triggering update
+01:30.448	ID:4	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+01:30.451	ID:4	RPL: Received a DAO ACK with sequence number 245 and status 0 from fe80::203:3:3:3
+01:30.451	ID:4	dis_s:0 dis_r:1 dio_s:5 dio_r:8 dao_s:9 dao_r:5 dao_a_s:5 dao_a_r:9 
+01:31.236	ID:2	RPL: rpl_process_parent_event recalculate_ranks
+01:31.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+01:31.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+01:38.294	ID:1	RPL: probing   3
+01:38.294	ID:1	RPL: Sending prefix info in DIO for aaaa::
+01:38.294	ID:1	RPL: Sending unicast-DIO with rank 512 to fe80::203:3:3:3
+01:38.294	ID:1	dis_s:0 dis_r:0 dio_s:5 dio_r:4 dao_s:4 dao_r:0 dao_a_s:0 dao_a_r:4 
+01:38.294	ID:1	RPL: rank 512 dioint 16, 1 nbr(s)
+01:38.294	ID:1	RPL: nbr   3   256,   256 =>   512 * (last tx 0 min ago)
+01:38.294	ID:1	RPL: end of list
+01:38.300	ID:3	RPL: Received a DIO from fe80::201:1:1:1
+01:38.300	ID:3	RPL: Neighbor already in neighbor cache
+01:38.300	ID:3	RPL: Incoming DIO (id, ver, rank) = (30,240,512)
+01:38.300	ID:3	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+01:38.300	ID:3	RPL: DIO option 4, length: 14
+01:38.300	ID:3	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+01:38.300	ID:3	RPL: DIO option 8, length: 30
+01:38.300	ID:3	RPL: Copying prefix information
+01:38.300	ID:3	Prefix Information:aaaa::
+01:38.300	ID:3	RPL : Prefix announced in DIO
+01:38.300	ID:3	RPL: Prefix set - will announce this in DIOs
+01:38.300	ID:3	rpl_set_prefix - prefix NON-NULL
+01:38.300	ID:3	dis_s:0 dis_r:0 dio_s:4 dio_r:9 dao_s:0 dao_r:13 dao_a_s:13 dao_a_r:0 
+01:38.301	ID:1	RPL: rpl_link_neighbor_callback triggering update
+01:38.301	ID:1	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+01:38.382	ID:1	RPL: rpl_process_parent_event recalculate_ranks
+01:38.870	ID:2	RPL: probing   4
+01:38.870	ID:2	RPL: Sending prefix info in DIO for aaaa::
+01:38.870	ID:2	RPL: Sending unicast-DIO with rank 768 to fe80::204:4:4:4
+01:38.870	ID:2	dis_s:1 dis_r:0 dio_s:5 dio_r:5 dao_s:5 dao_r:0 dao_a_s:0 dao_a_r:5 
+01:38.870	ID:2	RPL: rank 768 dioint 16, 1 nbr(s)
+01:38.870	ID:2	RPL: nbr   4   512,   256 =>   768 * (last tx 0 min ago)
+01:38.870	ID:2	RPL: end of list
+01:38.876	ID:4	RPL: Received a DIO from fe80::202:2:2:2
+01:38.876	ID:4	RPL: Neighbor already in neighbor cache
+01:38.876	ID:4	RPL: Incoming DIO (id, ver, rank) = (30,240,768)
+01:38.876	ID:4	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+01:38.876	ID:4	RPL: DIO option 4, length: 14
+01:38.876	ID:4	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+01:38.876	ID:4	RPL: DIO option 8, length: 30
+01:38.876	ID:4	RPL: Copying prefix information
+01:38.876	ID:4	Prefix Information:aaaa::
+01:38.876	ID:4	RPL : Prefix announced in DIO
+01:38.876	ID:4	RPL: Prefix set - will announce this in DIOs
+01:38.876	ID:4	rpl_set_prefix - prefix NON-NULL
+01:38.876	ID:4	RPL: Received consistent DIO
+01:38.876	ID:4	RPL: preferred DAG aaaa::203:3:3:3, rank 512, min_rank 512, parent rank 768, parent etx 4294967295, link metric 256, instance etx 0
+01:38.876	ID:4	dis_s:0 dis_r:1 dio_s:5 dio_r:9 dao_s:9 dao_r:5 dao_a_s:5 dao_a_r:9 
+01:38.877	ID:2	RPL: rpl_link_neighbor_callback triggering update
+01:38.877	ID:2	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+01:39.236	ID:2	RPL: rpl_process_parent_event recalculate_ranks
+01:39.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+01:42.463	ID:3	RPL: rank 256 dioint 16, 2 nbr(s)
+01:42.463	ID:3	RPL: end of list
+01:55.019	ID:4	RPL: DIO Timer triggered
+01:55.019	ID:4	RPL: Sending prefix info in DIO for aaaa::
+01:55.019	ID:4	RPL: Sending a multicast-DIO with rank 512
+01:55.019	ID:4	dis_s:0 dis_r:1 dio_s:6 dio_r:9 dao_s:9 dao_r:5 dao_a_s:5 dao_a_r:9 
+01:55.019	ID:4	RPL: Scheduling DIO timer 15220 ticks in future (sent)
+01:55.019	ID:4	RPL: rank 512 dioint 16, 2 nbr(s)
+01:55.019	ID:4	RPL: nbr   3   256,   256 =>   512 * (last tx 0 min ago)
+01:55.019	ID:4	RPL: nbr   2   768,   256 =>  1024   (last tx 0 min ago)
+01:55.019	ID:4	RPL: end of list
+01:55.024	ID:2	RPL: Received a DIO from fe80::204:4:4:4
+01:55.024	ID:2	RPL: Neighbor already in neighbor cache
+01:55.024	ID:2	RPL: Incoming DIO (id, ver, rank) = (30,240,512)
+01:55.024	ID:2	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+01:55.024	ID:2	RPL: DIO option 4, length: 14
+01:55.024	ID:2	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+01:55.024	ID:2	RPL: DIO option 8, length: 30
+01:55.024	ID:2	RPL: Copying prefix information
+01:55.024	ID:2	Prefix Information:aaaa::
+01:55.024	ID:2	RPL : Prefix announced in DIO
+01:55.024	ID:2	RPL: Prefix set - will announce this in DIOs
+01:55.024	ID:2	rpl_set_prefix - prefix NON-NULL
+01:55.024	ID:2	RPL: Received consistent DIO
+01:55.024	ID:2	RPL: preferred DAG aaaa::203:3:3:3, rank 768, min_rank 768, parent rank 512, parent etx 4294967295, link metric 256, instance etx 0
+01:55.024	ID:2	dis_s:1 dis_r:0 dio_s:5 dio_r:6 dao_s:5 dao_r:0 dao_a_s:0 dao_a_r:5 
+01:55.024	ID:3	RPL: Received a DIO from fe80::204:4:4:4
+01:55.024	ID:3	RPL: Neighbor already in neighbor cache
+01:55.024	ID:3	RPL: Incoming DIO (id, ver, rank) = (30,240,512)
+01:55.024	ID:3	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+01:55.024	ID:3	RPL: DIO option 4, length: 14
+01:55.024	ID:3	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+01:55.024	ID:3	RPL: DIO option 8, length: 30
+01:55.024	ID:3	RPL: Copying prefix information
+01:55.024	ID:3	Prefix Information:aaaa::
+01:55.024	ID:3	RPL : Prefix announced in DIO
+01:55.024	ID:3	RPL: Prefix set - will announce this in DIOs
+01:55.024	ID:3	rpl_set_prefix - prefix NON-NULL
+01:55.024	ID:3	dis_s:0 dis_r:0 dio_s:4 dio_r:10 dao_s:0 dao_r:13 dao_a_s:13 dao_a_r:0 
+01:55.236	ID:2	RPL: rpl_process_parent_event recalculate_ranks
+01:56.672	ID:3	RPL: DIO Timer triggered
+01:56.672	ID:3	RPL: Sending prefix info in DIO for aaaa::
+01:56.672	ID:3	RPL: Sending a multicast-DIO with rank 256
+01:56.672	ID:3	dis_s:0 dis_r:0 dio_s:5 dio_r:10 dao_s:0 dao_r:13 dao_a_s:13 dao_a_r:0 
+01:56.672	ID:3	RPL: Scheduling DIO timer 11203 ticks in future (sent)
+01:56.672	ID:3	RPL: rank 256 dioint 16, 2 nbr(s)
+01:56.672	ID:3	RPL: end of list
+01:56.678	ID:1	RPL: Received a DIO from fe80::203:3:3:3
+01:56.678	ID:1	RPL: Neighbor already in neighbor cache
+01:56.678	ID:1	RPL: Incoming DIO (id, ver, rank) = (30,240,256)
+01:56.678	ID:1	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+01:56.678	ID:1	RPL: DIO option 4, length: 14
+01:56.678	ID:1	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+01:56.678	ID:1	RPL: DIO option 8, length: 30
+01:56.678	ID:1	RPL: Copying prefix information
+01:56.678	ID:1	Prefix Information:aaaa::
+01:56.678	ID:1	RPL : Prefix announced in DIO
+01:56.678	ID:1	RPL: Prefix set - will announce this in DIOs
+01:56.678	ID:1	rpl_set_prefix - prefix NON-NULL
+01:56.678	ID:1	RPL: Received consistent DIO
+01:56.678	ID:1	RPL: preferred DAG aaaa::203:3:3:3, rank 512, min_rank 512, parent rank 256, parent etx 4294967295, link metric 256, instance etx 0
+01:56.678	ID:1	RPL: Scheduling DAO timer 2529 ticks in the future
+01:56.678	ID:1	dis_s:0 dis_r:0 dio_s:5 dio_r:5 dao_s:4 dao_r:0 dao_a_s:0 dao_a_r:4 
+01:56.678	ID:4	RPL: Received a DIO from fe80::203:3:3:3
+01:56.678	ID:4	RPL: Neighbor already in neighbor cache
+01:56.678	ID:4	RPL: Incoming DIO (id, ver, rank) = (30,240,256)
+01:56.678	ID:4	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+01:56.678	ID:4	RPL: DIO option 4, length: 14
+01:56.678	ID:4	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+01:56.678	ID:4	RPL: DIO option 8, length: 30
+01:56.678	ID:4	RPL: Copying prefix information
+01:56.678	ID:4	Prefix Information:aaaa::
+01:56.678	ID:4	RPL : Prefix announced in DIO
+01:56.678	ID:4	RPL: Prefix set - will announce this in DIOs
+01:56.678	ID:4	rpl_set_prefix - prefix NON-NULL
+01:56.678	ID:4	RPL: Received consistent DIO
+01:56.678	ID:4	RPL: preferred DAG aaaa::203:3:3:3, rank 512, min_rank 512, parent rank 256, parent etx 4294967295, link metric 256, instance etx 0
+01:56.678	ID:4	RPL: Scheduling DAO timer 5810 ticks in the future
+01:56.678	ID:4	dis_s:0 dis_r:1 dio_s:6 dio_r:10 dao_s:9 dao_r:5 dao_a_s:5 dao_a_r:9 
+01:57.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+01:57.382	ID:1	RPL: rpl_process_parent_event recalculate_ranks
+01:59.207	ID:1	RPL: handle_dao_timer - sending DAO
+01:59.207	ID:1	RPL: Sending DAO with prefix aaaa::201:1:1:1 to fe80::203:3:3:3
+01:59.207	ID:1	dis_s:0 dis_r:0 dio_s:5 dio_r:5 dao_s:5 dao_r:0 dao_a_s:0 dao_a_r:4 
+01:59.212	ID:3	RPL: Received a DAO from fe80::201:1:1:1
+01:59.212	ID:3	RPL: DAO from unicast
+01:59.212	ID:3	RPL: DAO flag: 192, option type: 6, lifetime: 255, prefix length: 128 prefix: aaaa::201:1:1:1
+01:59.212	ID:3	RPL: adding DAO route
+01:59.212	ID:3	RPL: Neighbor already in neighbor cache
+01:59.212	ID:3	RPL: Added a route to aaaa::201:1:1:1/128 via fe80::201:1:1:1
+01:59.212	ID:3	RPL: Sending a DAO ACK with sequence number 245 to fe80::201:1:1:1
+01:59.212	ID:3	dis_s:0 dis_r:0 dio_s:5 dio_r:10 dao_s:0 dao_r:13 dao_a_s:14 dao_a_r:0 
+01:59.212	ID:3	dis_s:0 dis_r:0 dio_s:5 dio_r:10 dao_s:0 dao_r:14 dao_a_s:14 dao_a_r:0 
+01:59.213	ID:1	RPL: rpl_link_neighbor_callback triggering update
+01:59.213	ID:1	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+01:59.216	ID:1	RPL: Received a DAO ACK with sequence number 245 and status 0 from fe80::203:3:3:3
+01:59.216	ID:1	dis_s:0 dis_r:0 dio_s:5 dio_r:5 dao_s:5 dao_r:0 dao_a_s:0 dao_a_r:5 
+01:59.382	ID:1	RPL: rpl_process_parent_event recalculate_ranks
+02:02.488	ID:4	RPL: handle_dao_timer - sending DAO
+02:02.488	ID:4	RPL: Sending DAO with prefix aaaa::204:4:4:4 to fe80::203:3:3:3
+02:02.488	ID:4	dis_s:0 dis_r:1 dio_s:6 dio_r:10 dao_s:10 dao_r:5 dao_a_s:5 dao_a_r:9 
+02:02.494	ID:3	RPL: Received a DAO from fe80::204:4:4:4
+02:02.494	ID:3	RPL: DAO from unicast
+02:02.494	ID:3	RPL: DAO flag: 192, option type: 6, lifetime: 255, prefix length: 128 prefix: aaaa::204:4:4:4
+02:02.494	ID:3	RPL: adding DAO route
+02:02.494	ID:3	RPL: Neighbor already in neighbor cache
+02:02.494	ID:3	RPL: Added a route to aaaa::204:4:4:4/128 via fe80::204:4:4:4
+02:02.494	ID:3	RPL: Sending a DAO ACK with sequence number 245 to fe80::204:4:4:4
+02:02.494	ID:3	dis_s:0 dis_r:0 dio_s:5 dio_r:10 dao_s:0 dao_r:14 dao_a_s:15 dao_a_r:0 
+02:02.494	ID:3	dis_s:0 dis_r:0 dio_s:5 dio_r:10 dao_s:0 dao_r:15 dao_a_s:15 dao_a_r:0 
+02:02.494	ID:4	RPL: rpl_link_neighbor_callback triggering update
+02:02.494	ID:4	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+02:02.498	ID:4	RPL: Received a DAO ACK with sequence number 245 and status 0 from fe80::203:3:3:3
+02:02.498	ID:4	dis_s:0 dis_r:1 dio_s:6 dio_r:10 dao_s:10 dao_r:5 dao_a_s:5 dao_a_r:10 
+02:03.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+02:07.612	ID:2	RPL: DIO Timer triggered
+02:07.612	ID:2	RPL: Sending prefix info in DIO for aaaa::
+02:07.612	ID:2	RPL: Sending a multicast-DIO with rank 768
+02:07.612	ID:2	dis_s:1 dis_r:0 dio_s:6 dio_r:6 dao_s:5 dao_r:0 dao_a_s:0 dao_a_r:5 
+02:07.612	ID:2	RPL: Scheduling DIO timer 6376 ticks in future (sent)
+02:07.612	ID:2	RPL: rank 768 dioint 16, 1 nbr(s)
+02:07.612	ID:2	RPL: nbr   4   512,   256 =>   768 * (last tx 0 min ago)
+02:07.612	ID:2	RPL: end of list
+02:07.617	ID:4	RPL: Received a DIO from fe80::202:2:2:2
+02:07.617	ID:4	RPL: Neighbor already in neighbor cache
+02:07.617	ID:4	RPL: Incoming DIO (id, ver, rank) = (30,240,768)
+02:07.617	ID:4	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+02:07.617	ID:4	RPL: DIO option 4, length: 14
+02:07.617	ID:4	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+02:07.617	ID:4	RPL: DIO option 8, length: 30
+02:07.617	ID:4	RPL: Copying prefix information
+02:07.617	ID:4	Prefix Information:aaaa::
+02:07.617	ID:4	RPL : Prefix announced in DIO
+02:07.617	ID:4	RPL: Prefix set - will announce this in DIOs
+02:07.617	ID:4	rpl_set_prefix - prefix NON-NULL
+02:07.617	ID:4	RPL: Received consistent DIO
+02:07.617	ID:4	RPL: preferred DAG aaaa::203:3:3:3, rank 512, min_rank 512, parent rank 768, parent etx 4294967295, link metric 256, instance etx 0
+02:07.617	ID:4	dis_s:0 dis_r:1 dio_s:6 dio_r:11 dao_s:10 dao_r:5 dao_a_s:5 dao_a_r:10 
+02:07.875	ID:3	RPL: DIO Timer triggered
+02:07.875	ID:3	RPL: DIO Timer interval doubled 17
+02:07.875	ID:3	RPL: Scheduling DIO timer 72997 ticks in future (Interval)
+02:07.875	ID:3	RPL: rank 256 dioint 17, 2 nbr(s)
+02:07.875	ID:3	RPL: end of list
+02:08.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+02:09.839	ID:1	RPL: DIO Timer triggered
+02:09.839	ID:1	RPL: Sending prefix info in DIO for aaaa::
+02:09.839	ID:1	RPL: Sending a multicast-DIO with rank 512
+02:09.839	ID:1	dis_s:0 dis_r:0 dio_s:6 dio_r:5 dao_s:5 dao_r:0 dao_a_s:0 dao_a_r:5 
+02:09.839	ID:1	RPL: Scheduling DIO timer 400 ticks in future (sent)
+02:09.839	ID:1	RPL: rank 512 dioint 16, 1 nbr(s)
+02:09.839	ID:1	RPL: nbr   3   256,   256 =>   512 * (last tx 0 min ago)
+02:09.839	ID:1	RPL: end of list
+02:09.844	ID:3	RPL: Received a DIO from fe80::201:1:1:1
+02:09.844	ID:3	RPL: Neighbor already in neighbor cache
+02:09.844	ID:3	RPL: Incoming DIO (id, ver, rank) = (30,240,512)
+02:09.844	ID:3	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+02:09.844	ID:3	RPL: DIO option 4, length: 14
+02:09.844	ID:3	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+02:09.844	ID:3	RPL: DIO option 8, length: 30
+02:09.844	ID:3	RPL: Copying prefix information
+02:09.844	ID:3	Prefix Information:aaaa::
+02:09.844	ID:3	RPL : Prefix announced in DIO
+02:09.844	ID:3	RPL: Prefix set - will announce this in DIOs
+02:09.844	ID:3	rpl_set_prefix - prefix NON-NULL
+02:09.844	ID:3	dis_s:0 dis_r:0 dio_s:5 dio_r:11 dao_s:0 dao_r:15 dao_a_s:15 dao_a_r:0 
+02:10.239	ID:4	RPL: DIO Timer triggered
+02:10.239	ID:4	RPL: DIO Timer interval doubled 17
+02:10.239	ID:4	RPL: Scheduling DIO timer 117314 ticks in future (Interval)
+02:10.239	ID:4	RPL: rank 512 dioint 17, 2 nbr(s)
+02:10.239	ID:4	RPL: nbr   3   256,   256 =>   512 * (last tx 0 min ago)
+02:10.239	ID:4	RPL: nbr   2   768,   256 =>  1024   (last tx 0 min ago)
+02:10.239	ID:4	RPL: end of list
+02:10.239	ID:1	RPL: DIO Timer triggered
+02:10.239	ID:1	RPL: DIO Timer interval doubled 17
+02:10.239	ID:1	RPL: Scheduling DIO timer 121696 ticks in future (Interval)
+02:10.239	ID:1	RPL: rank 512 dioint 17, 1 nbr(s)
+02:10.239	ID:1	RPL: nbr   3   256,   256 =>   512 * (last tx 0 min ago)
+02:10.239	ID:1	RPL: end of list
+02:13.988	ID:2	RPL: DIO Timer triggered
+02:13.988	ID:2	RPL: DIO Timer interval doubled 17
+02:13.988	ID:2	RPL: Scheduling DIO timer 123969 ticks in future (Interval)
+02:13.988	ID:2	RPL: rank 768 dioint 17, 1 nbr(s)
+02:13.988	ID:2	RPL: nbr   4   512,   256 =>   768 * (last tx 0 min ago)
+02:13.988	ID:2	RPL: end of list
+02:35.903	ID:2	Sending unicast to aaaa::201:1:1:1
+02:35.903	ID:2	RPL: Verifying the presence of the RPL header option
+02:35.903	ID:2	RPL: No hop-by-hop option found, creating it
+02:35.903	ID:2	#L 4 0; red
+02:35.903	ID:2	#L 4 1; red
+02:35.903	ID:2	RPL: Updating RPL option
+02:35.908	ID:4	RPL: Packet going up, sender closer 0 (768 < 512)
+02:35.908	ID:4	RPL: Rank OK
+02:35.908	ID:4	RPL: Verifying the presence of the RPL header option
+02:35.908	ID:4	RPL: Updating RPL option
+02:35.908	ID:4	RPL option going up
+02:35.908	ID:4	#L 3 0; red
+02:35.908	ID:4	#L 3 1; red
+02:35.909	ID:2	RPL: rpl_link_neighbor_callback triggering update
+02:35.909	ID:2	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+02:35.913	ID:3	RPL: Packet going up, sender closer 0 (512 < 256)
+02:35.913	ID:3	RPL: Rank OK
+02:35.913	ID:3	RPL: Verifying the presence of the RPL header option
+02:35.913	ID:3	RPL: Updating RPL option
+02:35.913	ID:3	RPL option going down
+02:35.913	ID:3	#L 1 0; red
+02:35.913	ID:3	#L 1 1; red
+02:35.914	ID:4	RPL: rpl_link_neighbor_callback triggering update
+02:35.914	ID:4	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+02:35.918	ID:1	RPL: Packet going down, sender closer 1 (256 < 512)
+02:35.918	ID:1	RPL: Rank OK
+02:35.918	ID:1	Data received from aaaa::202:2:2:2 on port 1234 from port 1234 with length 10: 'Message 1'
+02:36.236	ID:2	RPL: rpl_process_parent_event recalculate_ranks
+02:36.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+02:38.487	ID:1	RPL: probing   3
+02:38.487	ID:1	RPL: Sending prefix info in DIO for aaaa::
+02:38.487	ID:1	RPL: Sending unicast-DIO with rank 512 to fe80::203:3:3:3
+02:38.487	ID:1	dis_s:0 dis_r:0 dio_s:7 dio_r:5 dao_s:5 dao_r:0 dao_a_s:0 dao_a_r:5 
+02:38.487	ID:1	RPL: rank 512 dioint 17, 1 nbr(s)
+02:38.487	ID:1	RPL: nbr   3   256,   256 =>   512 * (last tx 0 min ago)
+02:38.487	ID:1	RPL: end of list
+02:38.493	ID:3	RPL: Received a DIO from fe80::201:1:1:1
+02:38.493	ID:3	RPL: Neighbor already in neighbor cache
+02:38.493	ID:3	RPL: Incoming DIO (id, ver, rank) = (30,240,512)
+02:38.493	ID:3	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+02:38.493	ID:3	RPL: DIO option 4, length: 14
+02:38.493	ID:3	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+02:38.493	ID:3	RPL: DIO option 8, length: 30
+02:38.493	ID:3	RPL: Copying prefix information
+02:38.493	ID:3	Prefix Information:aaaa::
+02:38.493	ID:3	RPL : Prefix announced in DIO
+02:38.493	ID:3	RPL: Prefix set - will announce this in DIOs
+02:38.493	ID:3	rpl_set_prefix - prefix NON-NULL
+02:38.493	ID:3	dis_s:0 dis_r:0 dio_s:5 dio_r:12 dao_s:0 dao_r:15 dao_a_s:15 dao_a_r:0 
+02:38.494	ID:1	RPL: rpl_link_neighbor_callback triggering update
+02:38.494	ID:1	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+02:39.382	ID:1	RPL: rpl_process_parent_event recalculate_ranks
+02:55.782	ID:4	RPL: probing   2
+02:55.782	ID:4	RPL: Sending prefix info in DIO for aaaa::
+02:55.782	ID:4	RPL: Sending unicast-DIO with rank 512 to fe80::202:2:2:2
+02:55.782	ID:4	dis_s:0 dis_r:1 dio_s:7 dio_r:11 dao_s:10 dao_r:5 dao_a_s:5 dao_a_r:10 
+02:55.782	ID:4	RPL: rank 512 dioint 17, 2 nbr(s)
+02:55.782	ID:4	RPL: nbr   3   256,   256 =>   512 * (last tx 0 min ago)
+02:55.782	ID:4	RPL: nbr   2   768,   256 =>  1024   (last tx 1 min ago)
+02:55.782	ID:4	RPL: end of list
+02:55.789	ID:2	RPL: Received a DIO from fe80::204:4:4:4
+02:55.789	ID:2	RPL: Neighbor already in neighbor cache
+02:55.789	ID:2	RPL: Incoming DIO (id, ver, rank) = (30,240,512)
+02:55.789	ID:2	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+02:55.789	ID:2	RPL: DIO option 4, length: 14
+02:55.789	ID:2	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+02:55.789	ID:2	RPL: DIO option 8, length: 30
+02:55.789	ID:2	RPL: Copying prefix information
+02:55.789	ID:2	Prefix Information:aaaa::
+02:55.789	ID:2	RPL : Prefix announced in DIO
+02:55.789	ID:2	RPL: Prefix set - will announce this in DIOs
+02:55.789	ID:2	rpl_set_prefix - prefix NON-NULL
+02:55.789	ID:2	RPL: Received consistent DIO
+02:55.789	ID:2	RPL: preferred DAG aaaa::203:3:3:3, rank 768, min_rank 768, parent rank 512, parent etx 4294967295, link metric 256, instance etx 0
+02:55.789	ID:2	RPL: Scheduling DAO timer 3557 ticks in the future
+02:55.789	ID:2	dis_s:1 dis_r:0 dio_s:6 dio_r:7 dao_s:5 dao_r:0 dao_a_s:0 dao_a_r:5 
+02:55.789	ID:4	RPL: rpl_link_neighbor_callback triggering update
+02:55.789	ID:4	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+02:56.236	ID:2	RPL: rpl_process_parent_event recalculate_ranks
+02:56.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+02:59.346	ID:2	RPL: handle_dao_timer - sending DAO
+02:59.346	ID:2	RPL: Sending DAO with prefix aaaa::202:2:2:2 to fe80::204:4:4:4
+02:59.346	ID:2	dis_s:1 dis_r:0 dio_s:6 dio_r:7 dao_s:6 dao_r:0 dao_a_s:0 dao_a_r:5 
+02:59.351	ID:4	RPL: Received a DAO from fe80::202:2:2:2
+02:59.351	ID:4	RPL: DAO from unicast
+02:59.351	ID:4	RPL: DAO flag: 192, option type: 6, lifetime: 255, prefix length: 128 prefix: aaaa::202:2:2:2
+02:59.351	ID:4	RPL: adding DAO route
+02:59.351	ID:4	RPL: Neighbor already in neighbor cache
+02:59.351	ID:4	RPL: Added a route to aaaa::202:2:2:2/128 via fe80::202:2:2:2
+02:59.351	ID:4	RPL: Forwarding DAO to parent fe80::203:3:3:3
+02:59.351	ID:4	dis_s:0 dis_r:1 dio_s:7 dio_r:11 dao_s:11 dao_r:5 dao_a_s:5 dao_a_r:10        
+02:59.351	ID:4	RPL: Sending a DAO ACK with sequence number 246 to fe80::202:2:2:2
+02:59.351	ID:4	dis_s:0 dis_r:1 dio_s:7 dio_r:11 dao_s:11 dao_r:5 dao_a_s:6 dao_a_r:10 
+02:59.351	ID:4	dis_s:0 dis_r:1 dio_s:7 dio_r:11 dao_s:11 dao_r:6 dao_a_s:6 dao_a_r:10 
+02:59.352	ID:2	RPL: rpl_link_neighbor_callback triggering update
+02:59.352	ID:2	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+02:59.355	ID:2	RPL: Received a DAO ACK with sequence number 246 and status 0 from fe80::204:4:4:4
+02:59.355	ID:2	dis_s:1 dis_r:0 dio_s:6 dio_r:7 dao_s:6 dao_r:0 dao_a_s:0 dao_a_r:6 
+02:59.356	ID:4	RPL: rpl_link_neighbor_callback triggering update
+02:59.356	ID:4	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+02:59.362	ID:3	RPL: Received a DAO from fe80::204:4:4:4
+02:59.362	ID:3	RPL: DAO from unicast
+02:59.362	ID:3	RPL: DAO flag: 192, option type: 6, lifetime: 255, prefix length: 128 prefix: aaaa::202:2:2:2
+02:59.362	ID:3	RPL: adding DAO route
+02:59.362	ID:3	RPL: Neighbor already in neighbor cache
+02:59.362	ID:3	RPL: Added a route to aaaa::202:2:2:2/128 via fe80::204:4:4:4
+02:59.362	ID:3	RPL: Sending a DAO ACK with sequence number 246 to fe80::204:4:4:4
+02:59.362	ID:3	dis_s:0 dis_r:0 dio_s:5 dio_r:12 dao_s:0 dao_r:15 dao_a_s:16 dao_a_r:0 
+02:59.362	ID:3	dis_s:0 dis_r:0 dio_s:5 dio_r:12 dao_s:0 dao_r:16 dao_a_s:16 dao_a_r:0 
+02:59.363	ID:4	RPL: rpl_link_neighbor_callback triggering update
+02:59.363	ID:4	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+02:59.366	ID:4	RPL: Received a DAO ACK with sequence number 246 and status 0 from fe80::203:3:3:3
+02:59.366	ID:4	dis_s:0 dis_r:1 dio_s:7 dio_r:11 dao_s:11 dao_r:6 dao_a_s:6 dao_a_r:11 
+03:00.236	ID:2	RPL: rpl_process_parent_event recalculate_ranks
+03:00.280	ID:3	RPL: rank 256 dioint 17, 2 nbr(s)
+03:00.280	ID:3	RPL: end of list
+03:00.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+03:00.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+03:10.883	ID:2	RPL: probing   4
+03:10.883	ID:2	RPL: Sending prefix info in DIO for aaaa::
+03:10.883	ID:2	RPL: Sending unicast-DIO with rank 768 to fe80::204:4:4:4
+03:10.883	ID:2	dis_s:1 dis_r:0 dio_s:7 dio_r:7 dao_s:6 dao_r:0 dao_a_s:0 dao_a_r:6 
+03:10.883	ID:2	RPL: rank 768 dioint 17, 1 nbr(s)
+03:10.883	ID:2	RPL: nbr   4   512,   256 =>   768 * (last tx 0 min ago)
+03:10.883	ID:2	RPL: end of list
+03:10.889	ID:4	RPL: Received a DIO from fe80::202:2:2:2
+03:10.889	ID:4	RPL: Neighbor already in neighbor cache
+03:10.889	ID:4	RPL: Incoming DIO (id, ver, rank) = (30,240,768)
+03:10.889	ID:4	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+03:10.889	ID:4	RPL: DIO option 4, length: 14
+03:10.889	ID:4	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+03:10.889	ID:4	RPL: DIO option 8, length: 30
+03:10.889	ID:4	RPL: Copying prefix information
+03:10.889	ID:4	Prefix Information:aaaa::
+03:10.889	ID:4	RPL : Prefix announced in DIO
+03:10.889	ID:4	RPL: Prefix set - will announce this in DIOs
+03:10.889	ID:4	rpl_set_prefix - prefix NON-NULL
+03:10.889	ID:4	RPL: Received consistent DIO
+03:10.889	ID:4	RPL: preferred DAG aaaa::203:3:3:3, rank 512, min_rank 512, parent rank 768, parent etx 4294967295, link metric 256, instance etx 0
+03:10.889	ID:4	dis_s:0 dis_r:1 dio_s:7 dio_r:12 dao_s:11 dao_r:6 dao_a_s:6 dao_a_r:11 
+03:10.890	ID:2	RPL: rpl_link_neighbor_callback triggering update
+03:10.890	ID:2	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+03:11.236	ID:2	RPL: rpl_process_parent_event recalculate_ranks
+03:11.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+03:20.872	ID:3	RPL: DIO Timer triggered
+03:20.872	ID:3	RPL: Sending prefix info in DIO for aaaa::
+03:20.872	ID:3	RPL: Sending a multicast-DIO with rank 256
+03:20.872	ID:3	dis_s:0 dis_r:0 dio_s:6 dio_r:12 dao_s:0 dao_r:16 dao_a_s:16 dao_a_r:0 
+03:20.872	ID:3	RPL: Scheduling DIO timer 58075 ticks in future (sent)
+03:20.872	ID:3	RPL: rank 256 dioint 17, 2 nbr(s)
+03:20.872	ID:3	RPL: end of list
+03:20.877	ID:1	RPL: Received a DIO from fe80::203:3:3:3
+03:20.877	ID:1	RPL: Neighbor already in neighbor cache
+03:20.877	ID:1	RPL: Incoming DIO (id, ver, rank) = (30,240,256)
+03:20.877	ID:1	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+03:20.877	ID:1	RPL: DIO option 4, length: 14
+03:20.877	ID:1	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+03:20.877	ID:1	RPL: DIO option 8, length: 30
+03:20.877	ID:1	RPL: Copying prefix information
+03:20.877	ID:1	Prefix Information:aaaa::
+03:20.877	ID:1	RPL : Prefix announced in DIO
+03:20.877	ID:1	RPL: Prefix set - will announce this in DIOs
+03:20.877	ID:1	rpl_set_prefix - prefix NON-NULL
+03:20.877	ID:1	RPL: Received consistent DIO
+03:20.877	ID:1	RPL: preferred DAG aaaa::203:3:3:3, rank 512, min_rank 512, parent rank 256, parent etx 4294967295, link metric 256, instance etx 0
+03:20.877	ID:1	RPL: Scheduling DAO timer 5385 ticks in the future
+03:20.877	ID:1	dis_s:0 dis_r:0 dio_s:7 dio_r:6 dao_s:5 dao_r:0 dao_a_s:0 dao_a_r:5 
+03:20.877	ID:4	RPL: Received a DIO from fe80::203:3:3:3
+03:20.877	ID:4	RPL: Neighbor already in neighbor cache
+03:20.877	ID:4	RPL: Incoming DIO (id, ver, rank) = (30,240,256)
+03:20.877	ID:4	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+03:20.877	ID:4	RPL: DIO option 4, length: 14
+03:20.877	ID:4	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+03:20.877	ID:4	RPL: DIO option 8, length: 30
+03:20.877	ID:4	RPL: Copying prefix information
+03:20.877	ID:4	Prefix Information:aaaa::
+03:20.877	ID:4	RPL : Prefix announced in DIO
+03:20.877	ID:4	RPL: Prefix set - will announce this in DIOs
+03:20.877	ID:4	rpl_set_prefix - prefix NON-NULL
+03:20.877	ID:4	RPL: Received consistent DIO
+03:20.877	ID:4	RPL: preferred DAG aaaa::203:3:3:3, rank 512, min_rank 512, parent rank 256, parent etx 4294967295, link metric 256, instance etx 0
+03:20.877	ID:4	RPL: Scheduling DAO timer 5882 ticks in the future
+03:20.877	ID:4	dis_s:0 dis_r:1 dio_s:7 dio_r:13 dao_s:11 dao_r:6 dao_a_s:6 dao_a_r:11 
+03:21.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+03:21.382	ID:1	RPL: rpl_process_parent_event recalculate_ranks
+03:26.262	ID:1	RPL: handle_dao_timer - sending DAO
+03:26.262	ID:1	RPL: Sending DAO with prefix aaaa::201:1:1:1 to fe80::203:3:3:3
+03:26.262	ID:1	dis_s:0 dis_r:0 dio_s:7 dio_r:6 dao_s:6 dao_r:0 dao_a_s:0 dao_a_r:5 
+03:26.268	ID:3	RPL: Received a DAO from fe80::201:1:1:1
+03:26.268	ID:3	RPL: DAO from unicast
+03:26.268	ID:3	RPL: DAO flag: 192, option type: 6, lifetime: 255, prefix length: 128 prefix: aaaa::201:1:1:1
+03:26.268	ID:3	RPL: adding DAO route
+03:26.268	ID:3	RPL: Neighbor already in neighbor cache
+03:26.268	ID:3	RPL: Added a route to aaaa::201:1:1:1/128 via fe80::201:1:1:1
+03:26.268	ID:3	RPL: Sending a DAO ACK with sequence number 246 to fe80::201:1:1:1
+03:26.268	ID:3	dis_s:0 dis_r:0 dio_s:6 dio_r:12 dao_s:0 dao_r:16 dao_a_s:17 dao_a_r:0 
+03:26.268	ID:3	dis_s:0 dis_r:0 dio_s:6 dio_r:12 dao_s:0 dao_r:17 dao_a_s:17 dao_a_r:0 
+03:26.268	ID:1	RPL: rpl_link_neighbor_callback triggering update
+03:26.268	ID:1	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+03:26.272	ID:1	RPL: Received a DAO ACK with sequence number 246 and status 0 from fe80::203:3:3:3
+03:26.272	ID:1	dis_s:0 dis_r:0 dio_s:7 dio_r:6 dao_s:6 dao_r:0 dao_a_s:0 dao_a_r:6 
+03:26.382	ID:1	RPL: rpl_process_parent_event recalculate_ranks
+03:26.759	ID:4	RPL: handle_dao_timer - sending DAO
+03:26.759	ID:4	RPL: Sending DAO with prefix aaaa::204:4:4:4 to fe80::203:3:3:3
+03:26.759	ID:4	dis_s:0 dis_r:1 dio_s:7 dio_r:13 dao_s:12 dao_r:6 dao_a_s:6 dao_a_r:11 
+03:26.764	ID:3	RPL: Received a DAO from fe80::204:4:4:4
+03:26.764	ID:3	RPL: DAO from unicast
+03:26.764	ID:3	RPL: DAO flag: 192, option type: 6, lifetime: 255, prefix length: 128 prefix: aaaa::204:4:4:4
+03:26.764	ID:3	RPL: adding DAO route
+03:26.764	ID:3	RPL: Neighbor already in neighbor cache
+03:26.764	ID:3	RPL: Added a route to aaaa::204:4:4:4/128 via fe80::204:4:4:4
+03:26.764	ID:3	RPL: Sending a DAO ACK with sequence number 246 to fe80::204:4:4:4
+03:26.764	ID:3	dis_s:0 dis_r:0 dio_s:6 dio_r:12 dao_s:0 dao_r:17 dao_a_s:18 dao_a_r:0 
+03:26.764	ID:3	dis_s:0 dis_r:0 dio_s:6 dio_r:12 dao_s:0 dao_r:18 dao_a_s:18 dao_a_r:0 
+03:26.765	ID:4	RPL: rpl_link_neighbor_callback triggering update
+03:26.765	ID:4	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+03:26.768	ID:4	RPL: Received a DAO ACK with sequence number 246 and status 0 from fe80::203:3:3:3
+03:26.768	ID:4	dis_s:0 dis_r:1 dio_s:7 dio_r:13 dao_s:12 dao_r:6 dao_a_s:6 dao_a_r:12 
+03:27.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+03:30.239	ID:2	Sending unicast to aaaa::201:1:1:1
+03:30.239	ID:2	RPL: Verifying the presence of the RPL header option
+03:30.239	ID:2	RPL: No hop-by-hop option found, creating it
+03:30.239	ID:2	#L 4 0; red
+03:30.239	ID:2	#L 4 1; red
+03:30.239	ID:2	RPL: Updating RPL option
+03:30.244	ID:4	RPL: Packet going up, sender closer 0 (768 < 512)
+03:30.244	ID:4	RPL: Rank OK
+03:30.244	ID:4	RPL: Verifying the presence of the RPL header option
+03:30.244	ID:4	RPL: Updating RPL option
+03:30.244	ID:4	RPL option going up
+03:30.244	ID:4	#L 3 0; red
+03:30.244	ID:4	#L 3 1; red
+03:30.245	ID:2	RPL: rpl_link_neighbor_callback triggering update
+03:30.245	ID:2	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+03:30.250	ID:3	RPL: Packet going up, sender closer 0 (512 < 256)
+03:30.250	ID:3	RPL: Rank OK
+03:30.250	ID:3	RPL: Verifying the presence of the RPL header option
+03:30.250	ID:3	RPL: Updating RPL option
+03:30.250	ID:3	RPL option going down
+03:30.250	ID:3	#L 1 0; red
+03:30.250	ID:3	#L 1 1; red
+03:30.250	ID:4	RPL: rpl_link_neighbor_callback triggering update
+03:30.250	ID:4	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+03:30.255	ID:1	RPL: Packet going down, sender closer 1 (256 < 512)
+03:30.255	ID:1	RPL: Rank OK
+03:30.255	ID:1	Data received from aaaa::202:2:2:2 on port 1234 from port 1234 with length 10: 'Message 2'
+03:30.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+03:31.236	ID:2	RPL: rpl_process_parent_event recalculate_ranks
+04:07.553	ID:4	RPL: DIO Timer triggered
+04:07.553	ID:4	RPL: Sending prefix info in DIO for aaaa::
+04:07.553	ID:4	RPL: Sending a multicast-DIO with rank 512
+04:07.553	ID:4	dis_s:0 dis_r:1 dio_s:8 dio_r:13 dao_s:12 dao_r:6 dao_a_s:6 dao_a_r:12 
+04:07.553	ID:4	RPL: Scheduling DIO timer 13758 ticks in future (sent)
+04:07.553	ID:4	RPL: rank 512 dioint 17, 2 nbr(s)
+04:07.553	ID:4	RPL: nbr   3   256,   256 =>   512 * (last tx 0 min ago)
+04:07.553	ID:4	RPL: nbr   2   768,   256 =>  1024   (last tx 1 min ago)
+04:07.553	ID:4	RPL: end of list
+04:07.558	ID:2	RPL: Received a DIO from fe80::204:4:4:4
+04:07.558	ID:2	RPL: Neighbor already in neighbor cache
+04:07.558	ID:2	RPL: Incoming DIO (id, ver, rank) = (30,240,512)
+04:07.558	ID:2	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+04:07.558	ID:2	RPL: DIO option 4, length: 14
+04:07.558	ID:2	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+04:07.558	ID:2	RPL: DIO option 8, length: 30
+04:07.558	ID:2	RPL: Copying prefix information
+04:07.558	ID:2	Prefix Information:aaaa::
+04:07.558	ID:2	RPL : Prefix announced in DIO
+04:07.558	ID:2	RPL: Prefix set - will announce this in DIOs
+04:07.558	ID:2	rpl_set_prefix - prefix NON-NULL
+04:07.558	ID:2	RPL: Received consistent DIO
+04:07.558	ID:2	RPL: preferred DAG aaaa::203:3:3:3, rank 768, min_rank 768, parent rank 512, parent etx 4294967295, link metric 256, instance etx 0
+04:07.558	ID:2	RPL: Scheduling DAO timer 2980 ticks in the future
+04:07.558	ID:2	dis_s:1 dis_r:0 dio_s:7 dio_r:8 dao_s:6 dao_r:0 dao_a_s:0 dao_a_r:6 
+04:07.558	ID:3	RPL: Received a DIO from fe80::204:4:4:4
+04:07.558	ID:3	RPL: Neighbor already in neighbor cache
+04:07.558	ID:3	RPL: Incoming DIO (id, ver, rank) = (30,240,512)
+04:07.558	ID:3	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+04:07.558	ID:3	RPL: DIO option 4, length: 14
+04:07.558	ID:3	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+04:07.558	ID:3	RPL: DIO option 8, length: 30
+04:07.558	ID:3	RPL: Copying prefix information
+04:07.558	ID:3	Prefix Information:aaaa::
+04:07.558	ID:3	RPL : Prefix announced in DIO
+04:07.558	ID:3	RPL: Prefix set - will announce this in DIOs
+04:07.558	ID:3	rpl_set_prefix - prefix NON-NULL
+04:07.558	ID:3	dis_s:0 dis_r:0 dio_s:6 dio_r:13 dao_s:0 dao_r:18 dao_a_s:18 dao_a_r:0 
+04:08.236	ID:2	RPL: rpl_process_parent_event recalculate_ranks
+04:10.538	ID:2	RPL: handle_dao_timer - sending DAO
+04:10.538	ID:2	RPL: Sending DAO with prefix aaaa::202:2:2:2 to fe80::204:4:4:4
+04:10.538	ID:2	dis_s:1 dis_r:0 dio_s:7 dio_r:8 dao_s:7 dao_r:0 dao_a_s:0 dao_a_r:6 
+04:10.543	ID:4	RPL: Received a DAO from fe80::202:2:2:2
+04:10.543	ID:4	RPL: DAO from unicast
+04:10.543	ID:4	RPL: DAO flag: 192, option type: 6, lifetime: 255, prefix length: 128 prefix: aaaa::202:2:2:2
+04:10.543	ID:4	RPL: adding DAO route
+04:10.543	ID:4	RPL: Neighbor already in neighbor cache
+04:10.543	ID:4	RPL: Added a route to aaaa::202:2:2:2/128 via fe80::202:2:2:2
+04:10.543	ID:4	RPL: Forwarding DAO to parent fe80::203:3:3:3
+04:10.543	ID:4	dis_s:0 dis_r:1 dio_s:8 dio_r:13 dao_s:13 dao_r:6 dao_a_s:6 dao_a_r:12        
+04:10.543	ID:4	RPL: Sending a DAO ACK with sequence number 247 to fe80::202:2:2:2
+04:10.543	ID:4	dis_s:0 dis_r:1 dio_s:8 dio_r:13 dao_s:13 dao_r:6 dao_a_s:7 dao_a_r:12 
+04:10.543	ID:4	dis_s:0 dis_r:1 dio_s:8 dio_r:13 dao_s:13 dao_r:7 dao_a_s:7 dao_a_r:12 
+04:10.544	ID:2	RPL: rpl_link_neighbor_callback triggering update
+04:10.544	ID:2	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+04:10.547	ID:2	RPL: Received a DAO ACK with sequence number 247 and status 0 from fe80::204:4:4:4
+04:10.547	ID:2	dis_s:1 dis_r:0 dio_s:7 dio_r:8 dao_s:7 dao_r:0 dao_a_s:0 dao_a_r:7 
+04:10.548	ID:4	RPL: rpl_link_neighbor_callback triggering update
+04:10.548	ID:4	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+04:10.554	ID:3	RPL: Received a DAO from fe80::204:4:4:4
+04:10.554	ID:3	RPL: DAO from unicast
+04:10.554	ID:3	RPL: DAO flag: 192, option type: 6, lifetime: 255, prefix length: 128 prefix: aaaa::202:2:2:2
+04:10.554	ID:3	RPL: adding DAO route
+04:10.554	ID:3	RPL: Neighbor already in neighbor cache
+04:10.554	ID:3	RPL: Added a route to aaaa::202:2:2:2/128 via fe80::204:4:4:4
+04:10.554	ID:3	RPL: Sending a DAO ACK with sequence number 247 to fe80::204:4:4:4
+04:10.554	ID:3	dis_s:0 dis_r:0 dio_s:6 dio_r:13 dao_s:0 dao_r:18 dao_a_s:19 dao_a_r:0 
+04:10.554	ID:3	dis_s:0 dis_r:0 dio_s:6 dio_r:13 dao_s:0 dao_r:19 dao_a_s:19 dao_a_r:0 
+04:10.555	ID:4	RPL: rpl_link_neighbor_callback triggering update
+04:10.555	ID:4	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+04:10.558	ID:4	RPL: Received a DAO ACK with sequence number 247 and status 0 from fe80::203:3:3:3
+04:10.558	ID:4	dis_s:0 dis_r:1 dio_s:8 dio_r:13 dao_s:13 dao_r:7 dao_a_s:7 dao_a_r:13 
+04:11.236	ID:2	RPL: rpl_process_parent_event recalculate_ranks
+04:11.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+04:11.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+04:11.935	ID:1	RPL: DIO Timer triggered
+04:11.935	ID:1	RPL: Sending prefix info in DIO for aaaa::
+04:11.935	ID:1	RPL: Sending a multicast-DIO with rank 512
+04:11.935	ID:1	dis_s:0 dis_r:0 dio_s:8 dio_r:6 dao_s:6 dao_r:0 dao_a_s:0 dao_a_r:6 
+04:11.935	ID:1	RPL: Scheduling DIO timer 9376 ticks in future (sent)
+04:11.935	ID:1	RPL: rank 512 dioint 17, 1 nbr(s)
+04:11.935	ID:1	RPL: nbr   3   256,   256 =>   512 * (last tx 0 min ago)
+04:11.935	ID:1	RPL: end of list
+04:11.940	ID:3	RPL: Received a DIO from fe80::201:1:1:1
+04:11.940	ID:3	RPL: Neighbor already in neighbor cache
+04:11.940	ID:3	RPL: Incoming DIO (id, ver, rank) = (30,240,512)
+04:11.940	ID:3	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+04:11.940	ID:3	RPL: DIO option 4, length: 14
+04:11.940	ID:3	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+04:11.940	ID:3	RPL: DIO option 8, length: 30
+04:11.940	ID:3	RPL: Copying prefix information
+04:11.940	ID:3	Prefix Information:aaaa::
+04:11.940	ID:3	RPL : Prefix announced in DIO
+04:11.940	ID:3	RPL: Prefix set - will announce this in DIOs
+04:11.940	ID:3	rpl_set_prefix - prefix NON-NULL
+04:11.940	ID:3	dis_s:0 dis_r:0 dio_s:6 dio_r:14 dao_s:0 dao_r:19 dao_a_s:19 dao_a_r:0 
+04:12.864	ID:2	Sending unicast to aaaa::201:1:1:1
+04:12.864	ID:2	RPL: Verifying the presence of the RPL header option
+04:12.864	ID:2	RPL: No hop-by-hop option found, creating it
+04:12.864	ID:2	#L 4 0; red
+04:12.864	ID:2	#L 4 1; red
+04:12.864	ID:2	RPL: Updating RPL option
+04:12.869	ID:4	RPL: Packet going up, sender closer 0 (768 < 512)
+04:12.869	ID:4	RPL: Rank OK
+04:12.869	ID:4	RPL: Verifying the presence of the RPL header option
+04:12.869	ID:4	RPL: Updating RPL option
+04:12.869	ID:4	RPL option going up
+04:12.869	ID:4	#L 3 0; red
+04:12.869	ID:4	#L 3 1; red
+04:12.870	ID:2	RPL: rpl_link_neighbor_callback triggering update
+04:12.870	ID:2	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+04:12.874	ID:3	RPL: Packet going up, sender closer 0 (512 < 256)
+04:12.874	ID:3	RPL: Rank OK
+04:12.874	ID:3	RPL: Verifying the presence of the RPL header option
+04:12.874	ID:3	RPL: Updating RPL option
+04:12.874	ID:3	RPL option going down
+04:12.874	ID:3	#L 1 0; red
+04:12.874	ID:3	#L 1 1; red
+04:12.875	ID:4	RPL: rpl_link_neighbor_callback triggering update
+04:12.875	ID:4	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+04:12.879	ID:1	RPL: Packet going down, sender closer 1 (256 < 512)
+04:12.879	ID:1	RPL: Rank OK
+04:12.879	ID:1	Data received from aaaa::202:2:2:2 on port 1234 from port 1234 with length 10: 'Message 3'
+04:13.236	ID:2	RPL: rpl_process_parent_event recalculate_ranks
+04:13.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+04:17.714	ID:1	RPL: probing   3
+04:17.714	ID:1	RPL: Sending prefix info in DIO for aaaa::
+04:17.714	ID:1	RPL: Sending unicast-DIO with rank 512 to fe80::203:3:3:3
+04:17.714	ID:1	dis_s:0 dis_r:0 dio_s:9 dio_r:6 dao_s:6 dao_r:0 dao_a_s:0 dao_a_r:6 
+04:17.714	ID:1	RPL: rank 512 dioint 17, 1 nbr(s)
+04:17.714	ID:1	RPL: nbr   3   256,   256 =>   512 * (last tx 0 min ago)
+04:17.714	ID:1	RPL: end of list
+04:17.720	ID:3	RPL: Received a DIO from fe80::201:1:1:1
+04:17.720	ID:3	RPL: Neighbor already in neighbor cache
+04:17.720	ID:3	RPL: Incoming DIO (id, ver, rank) = (30,240,512)
+04:17.720	ID:3	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+04:17.720	ID:3	RPL: DIO option 4, length: 14
+04:17.720	ID:3	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+04:17.720	ID:3	RPL: DIO option 8, length: 30
+04:17.720	ID:3	RPL: Copying prefix information
+04:17.720	ID:3	Prefix Information:aaaa::
+04:17.720	ID:3	RPL : Prefix announced in DIO
+04:17.720	ID:3	RPL: Prefix set - will announce this in DIOs
+04:17.720	ID:3	rpl_set_prefix - prefix NON-NULL
+04:17.720	ID:3	dis_s:0 dis_r:0 dio_s:6 dio_r:15 dao_s:0 dao_r:19 dao_a_s:19 dao_a_r:0 
+04:17.721	ID:1	RPL: rpl_link_neighbor_callback triggering update
+04:17.721	ID:1	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+04:17.957	ID:2	RPL: DIO Timer triggered
+04:17.957	ID:2	RPL: Sending prefix info in DIO for aaaa::
+04:17.957	ID:2	RPL: Sending a multicast-DIO with rank 768
+04:17.957	ID:2	dis_s:1 dis_r:0 dio_s:8 dio_r:8 dao_s:7 dao_r:0 dao_a_s:0 dao_a_r:7 
+04:17.957	ID:2	RPL: Scheduling DIO timer 7103 ticks in future (sent)
+04:17.957	ID:2	RPL: rank 768 dioint 17, 1 nbr(s)
+04:17.957	ID:2	RPL: nbr   4   512,   256 =>   768 * (last tx 0 min ago)
+04:17.957	ID:2	RPL: end of list
+04:17.962	ID:4	RPL: Received a DIO from fe80::202:2:2:2
+04:17.962	ID:4	RPL: Neighbor already in neighbor cache
+04:17.962	ID:4	RPL: Incoming DIO (id, ver, rank) = (30,240,768)
+04:17.962	ID:4	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+04:17.962	ID:4	RPL: DIO option 4, length: 14
+04:17.962	ID:4	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+04:17.962	ID:4	RPL: DIO option 8, length: 30
+04:17.962	ID:4	RPL: Copying prefix information
+04:17.962	ID:4	Prefix Information:aaaa::
+04:17.962	ID:4	RPL : Prefix announced in DIO
+04:17.962	ID:4	RPL: Prefix set - will announce this in DIOs
+04:17.962	ID:4	rpl_set_prefix - prefix NON-NULL
+04:17.962	ID:4	RPL: Received consistent DIO
+04:17.962	ID:4	RPL: preferred DAG aaaa::203:3:3:3, rank 512, min_rank 512, parent rank 768, parent etx 4294967295, link metric 256, instance etx 0
+04:17.962	ID:4	dis_s:0 dis_r:1 dio_s:8 dio_r:14 dao_s:13 dao_r:7 dao_a_s:7 dao_a_r:13 
+04:18.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+04:18.382	ID:1	RPL: rpl_process_parent_event recalculate_ranks
+04:18.947	ID:3	RPL: DIO Timer triggered
+04:18.947	ID:3	RPL: DIO Timer interval doubled 18
+04:18.947	ID:3	RPL: Scheduling DIO timer 131532 ticks in future (Interval)
+04:18.947	ID:3	RPL: rank 256 dioint 18, 2 nbr(s)
+04:18.947	ID:3	RPL: end of list
+04:20.488	ID:2	RPL: probing   4
+04:20.488	ID:2	RPL: Sending prefix info in DIO for aaaa::
+04:20.488	ID:2	RPL: Sending unicast-DIO with rank 768 to fe80::204:4:4:4
+04:20.488	ID:2	dis_s:1 dis_r:0 dio_s:9 dio_r:8 dao_s:7 dao_r:0 dao_a_s:0 dao_a_r:7 
+04:20.488	ID:2	RPL: rank 768 dioint 17, 1 nbr(s)
+04:20.488	ID:2	RPL: nbr   4   512,   256 =>   768 * (last tx 0 min ago)
+04:20.488	ID:2	RPL: end of list
+04:20.495	ID:4	RPL: Received a DIO from fe80::202:2:2:2
+04:20.495	ID:4	RPL: Neighbor already in neighbor cache
+04:20.495	ID:4	RPL: Incoming DIO (id, ver, rank) = (30,240,768)
+04:20.495	ID:4	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+04:20.495	ID:4	RPL: DIO option 4, length: 14
+04:20.495	ID:4	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+04:20.495	ID:4	RPL: DIO option 8, length: 30
+04:20.495	ID:4	RPL: Copying prefix information
+04:20.495	ID:4	Prefix Information:aaaa::
+04:20.495	ID:4	RPL : Prefix announced in DIO
+04:20.495	ID:4	RPL: Prefix set - will announce this in DIOs
+04:20.495	ID:4	rpl_set_prefix - prefix NON-NULL
+04:20.495	ID:4	RPL: Received consistent DIO
+04:20.495	ID:4	RPL: preferred DAG aaaa::203:3:3:3, rank 512, min_rank 512, parent rank 768, parent etx 4294967295, link metric 256, instance etx 0
+04:20.495	ID:4	dis_s:0 dis_r:1 dio_s:8 dio_r:15 dao_s:13 dao_r:7 dao_a_s:7 dao_a_r:13 
+04:20.496	ID:2	RPL: rpl_link_neighbor_callback triggering update
+04:20.496	ID:2	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+04:21.236	ID:2	RPL: rpl_process_parent_event recalculate_ranks
+04:21.311	ID:4	RPL: DIO Timer triggered
+04:21.311	ID:4	RPL: DIO Timer interval doubled 18
+04:21.311	ID:4	RPL: Scheduling DIO timer 181476 ticks in future (Interval)
+04:21.311	ID:4	RPL: rank 512 dioint 18, 2 nbr(s)
+04:21.311	ID:4	RPL: nbr   3   256,   256 =>   512 * (last tx 0 min ago)
+04:21.311	ID:4	RPL: nbr   2   768,   256 =>  1024   (last tx 0 min ago)
+04:21.311	ID:4	RPL: end of list
+04:21.311	ID:1	RPL: DIO Timer triggered
+04:21.311	ID:1	RPL: DIO Timer interval doubled 18
+04:21.311	ID:1	RPL: Scheduling DIO timer 134274 ticks in future (Interval)
+04:21.311	ID:1	RPL: rank 512 dioint 18, 1 nbr(s)
+04:21.311	ID:1	RPL: nbr   3   256,   256 =>   512 * (last tx 0 min ago)
+04:21.311	ID:1	RPL: end of list
+04:21.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+04:25.060	ID:2	RPL: DIO Timer triggered
+04:25.060	ID:2	RPL: DIO Timer interval doubled 18
+04:25.060	ID:2	RPL: Scheduling DIO timer 147776 ticks in future (Interval)
+04:25.060	ID:2	RPL: rank 768 dioint 18, 1 nbr(s)
+04:25.060	ID:2	RPL: nbr   4   512,   256 =>   768 * (last tx 0 min ago)
+04:25.060	ID:2	RPL: end of list
+04:36.505	ID:4	RPL: probing   2
+04:36.505	ID:4	RPL: Sending prefix info in DIO for aaaa::
+04:36.505	ID:4	RPL: Sending unicast-DIO with rank 512 to fe80::202:2:2:2
+04:36.505	ID:4	dis_s:0 dis_r:1 dio_s:9 dio_r:15 dao_s:13 dao_r:7 dao_a_s:7 dao_a_r:13 
+04:36.505	ID:4	RPL: rank 512 dioint 18, 2 nbr(s)
+04:36.505	ID:4	RPL: nbr   3   256,   256 =>   512 * (last tx 0 min ago)
+04:36.505	ID:4	RPL: nbr   2   768,   256 =>  1024   (last tx 0 min ago)
+04:36.505	ID:4	RPL: end of list
+04:36.511	ID:2	RPL: Received a DIO from fe80::204:4:4:4
+04:36.511	ID:2	RPL: Neighbor already in neighbor cache
+04:36.511	ID:2	RPL: Incoming DIO (id, ver, rank) = (30,240,512)
+04:36.511	ID:2	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+04:36.511	ID:2	RPL: DIO option 4, length: 14
+04:36.511	ID:2	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+04:36.511	ID:2	RPL: DIO option 8, length: 30
+04:36.511	ID:2	RPL: Copying prefix information
+04:36.511	ID:2	Prefix Information:aaaa::
+04:36.511	ID:2	RPL : Prefix announced in DIO
+04:36.511	ID:2	RPL: Prefix set - will announce this in DIOs
+04:36.511	ID:2	rpl_set_prefix - prefix NON-NULL
+04:36.511	ID:2	RPL: Received consistent DIO
+04:36.511	ID:2	RPL: preferred DAG aaaa::203:3:3:3, rank 768, min_rank 768, parent rank 512, parent etx 4294967295, link metric 256, instance etx 0
+04:36.511	ID:2	RPL: Scheduling DAO timer 4937 ticks in the future
+04:36.511	ID:2	dis_s:1 dis_r:0 dio_s:9 dio_r:9 dao_s:7 dao_r:0 dao_a_s:0 dao_a_r:7 
+04:36.512	ID:4	RPL: rpl_link_neighbor_callback triggering update
+04:36.512	ID:4	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+04:37.236	ID:2	RPL: rpl_process_parent_event recalculate_ranks
+04:37.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+04:41.448	ID:2	RPL: handle_dao_timer - sending DAO
+04:41.448	ID:2	RPL: Sending DAO with prefix aaaa::202:2:2:2 to fe80::204:4:4:4
+04:41.448	ID:2	dis_s:1 dis_r:0 dio_s:9 dio_r:9 dao_s:8 dao_r:0 dao_a_s:0 dao_a_r:7 
+04:41.453	ID:4	RPL: Received a DAO from fe80::202:2:2:2
+04:41.453	ID:4	RPL: DAO from unicast
+04:41.453	ID:4	RPL: DAO flag: 192, option type: 6, lifetime: 255, prefix length: 128 prefix: aaaa::202:2:2:2
+04:41.453	ID:4	RPL: adding DAO route
+04:41.453	ID:4	RPL: Neighbor already in neighbor cache
+04:41.453	ID:4	RPL: Added a route to aaaa::202:2:2:2/128 via fe80::202:2:2:2
+04:41.453	ID:4	RPL: Forwarding DAO to parent fe80::203:3:3:3
+04:41.453	ID:4	dis_s:0 dis_r:1 dio_s:9 dio_r:15 dao_s:14 dao_r:7 dao_a_s:7 dao_a_r:13        
+04:41.453	ID:4	RPL: Sending a DAO ACK with sequence number 248 to fe80::202:2:2:2
+04:41.453	ID:4	dis_s:0 dis_r:1 dio_s:9 dio_r:15 dao_s:14 dao_r:7 dao_a_s:8 dao_a_r:13 
+04:41.453	ID:4	dis_s:0 dis_r:1 dio_s:9 dio_r:15 dao_s:14 dao_r:8 dao_a_s:8 dao_a_r:13 
+04:41.454	ID:2	RPL: rpl_link_neighbor_callback triggering update
+04:41.454	ID:2	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+04:41.458	ID:2	RPL: Received a DAO ACK with sequence number 248 and status 0 from fe80::204:4:4:4
+04:41.458	ID:2	dis_s:1 dis_r:0 dio_s:9 dio_r:9 dao_s:8 dao_r:0 dao_a_s:0 dao_a_r:8 
+04:41.458	ID:4	RPL: rpl_link_neighbor_callback triggering update
+04:41.458	ID:4	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+04:41.463	ID:3	RPL: Received a DAO from fe80::204:4:4:4
+04:41.463	ID:3	RPL: DAO from unicast
+04:41.463	ID:3	RPL: DAO flag: 192, option type: 6, lifetime: 255, prefix length: 128 prefix: aaaa::202:2:2:2
+04:41.463	ID:3	RPL: adding DAO route
+04:41.463	ID:3	RPL: Neighbor already in neighbor cache
+04:41.463	ID:3	RPL: Added a route to aaaa::202:2:2:2/128 via fe80::204:4:4:4
+04:41.463	ID:3	RPL: Sending a DAO ACK with sequence number 248 to fe80::204:4:4:4
+04:41.463	ID:3	dis_s:0 dis_r:0 dio_s:6 dio_r:15 dao_s:0 dao_r:19 dao_a_s:20 dao_a_r:0 
+04:41.463	ID:3	dis_s:0 dis_r:0 dio_s:6 dio_r:15 dao_s:0 dao_r:20 dao_a_s:20 dao_a_r:0 
+04:41.464	ID:4	RPL: rpl_link_neighbor_callback triggering update
+04:41.464	ID:4	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+04:41.467	ID:4	RPL: Received a DAO ACK with sequence number 248 and status 0 from fe80::203:3:3:3
+04:41.467	ID:4	dis_s:0 dis_r:1 dio_s:9 dio_r:15 dao_s:14 dao_r:8 dao_a_s:8 dao_a_r:14 
+04:42.236	ID:2	RPL: rpl_process_parent_event recalculate_ranks
+04:42.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+04:42.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+04:46.828	ID:3	RPL: rank 256 dioint 18, 2 nbr(s)
+04:46.828	ID:3	RPL: end of list
+05:29.543	ID:1	RPL: probing   3
+05:29.543	ID:1	RPL: Sending prefix info in DIO for aaaa::
+05:29.543	ID:1	RPL: Sending unicast-DIO with rank 512 to fe80::203:3:3:3
+05:29.543	ID:1	dis_s:0 dis_r:0 dio_s:10 dio_r:6 dao_s:6 dao_r:0 dao_a_s:0 dao_a_r:6 
+05:29.543	ID:1	RPL: rank 512 dioint 18, 1 nbr(s)
+05:29.543	ID:1	RPL: nbr   3   256,   256 =>   512 * (last tx 1 min ago)
+05:29.543	ID:1	RPL: end of list
+05:29.549	ID:3	RPL: Received a DIO from fe80::201:1:1:1
+05:29.549	ID:3	RPL: Neighbor already in neighbor cache
+05:29.549	ID:3	RPL: Incoming DIO (id, ver, rank) = (30,240,512)
+05:29.549	ID:3	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+05:29.549	ID:3	RPL: DIO option 4, length: 14
+05:29.549	ID:3	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+05:29.549	ID:3	RPL: DIO option 8, length: 30
+05:29.549	ID:3	RPL: Copying prefix information
+05:29.549	ID:3	Prefix Information:aaaa::
+05:29.549	ID:3	RPL : Prefix announced in DIO
+05:29.549	ID:3	RPL: Prefix set - will announce this in DIOs
+05:29.549	ID:3	rpl_set_prefix - prefix NON-NULL
+05:29.549	ID:3	dis_s:0 dis_r:0 dio_s:6 dio_r:16 dao_s:0 dao_r:20 dao_a_s:20 dao_a_r:0 
+05:29.550	ID:1	RPL: rpl_link_neighbor_callback triggering update
+05:29.550	ID:1	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+05:30.382	ID:1	RPL: rpl_process_parent_event recalculate_ranks
+05:49.661	ID:2	Sending unicast to aaaa::201:1:1:1
+05:49.661	ID:2	RPL: Verifying the presence of the RPL header option
+05:49.661	ID:2	RPL: No hop-by-hop option found, creating it
+05:49.661	ID:2	#L 4 0; red
+05:49.661	ID:2	#L 4 1; red
+05:49.661	ID:2	RPL: Updating RPL option
+05:49.666	ID:4	RPL: Packet going up, sender closer 0 (768 < 512)
+05:49.666	ID:4	RPL: Rank OK
+05:49.666	ID:4	RPL: Verifying the presence of the RPL header option
+05:49.666	ID:4	RPL: Updating RPL option
+05:49.666	ID:4	RPL option going up
+05:49.666	ID:4	#L 3 0; red
+05:49.666	ID:4	#L 3 1; red
+05:49.667	ID:2	RPL: rpl_link_neighbor_callback triggering update
+05:49.667	ID:2	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+05:49.672	ID:3	RPL: Packet going up, sender closer 0 (512 < 256)
+05:49.672	ID:3	RPL: Rank OK
+05:49.672	ID:3	RPL: Verifying the presence of the RPL header option
+05:49.672	ID:3	RPL: Updating RPL option
+05:49.672	ID:3	RPL option going down
+05:49.672	ID:3	#L 1 0; red
+05:49.672	ID:3	#L 1 1; red
+05:49.673	ID:4	RPL: rpl_link_neighbor_callback triggering update
+05:49.673	ID:4	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+05:49.677	ID:1	RPL: Packet going down, sender closer 1 (256 < 512)
+05:49.677	ID:1	RPL: Rank OK
+05:49.677	ID:1	Data received from aaaa::202:2:2:2 on port 1234 from port 1234 with length 10: 'Message 4'
+05:50.236	ID:2	RPL: rpl_process_parent_event recalculate_ranks
+05:50.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+06:01.415	ID:2	RPL: probing   4
+06:01.415	ID:2	RPL: Sending prefix info in DIO for aaaa::
+06:01.415	ID:2	RPL: Sending unicast-DIO with rank 768 to fe80::204:4:4:4
+06:01.415	ID:2	dis_s:1 dis_r:0 dio_s:10 dio_r:9 dao_s:8 dao_r:0 dao_a_s:0 dao_a_r:8 
+06:01.415	ID:2	RPL: rank 768 dioint 18, 1 nbr(s)
+06:01.415	ID:2	RPL: nbr   4   512,   256 =>   768 * (last tx 0 min ago)
+06:01.415	ID:2	RPL: end of list
+06:01.421	ID:4	RPL: Received a DIO from fe80::202:2:2:2
+06:01.421	ID:4	RPL: Neighbor already in neighbor cache
+06:01.421	ID:4	RPL: Incoming DIO (id, ver, rank) = (30,240,768)
+06:01.421	ID:4	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+06:01.421	ID:4	RPL: DIO option 4, length: 14
+06:01.421	ID:4	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+06:01.421	ID:4	RPL: DIO option 8, length: 30
+06:01.421	ID:4	RPL: Copying prefix information
+06:01.421	ID:4	Prefix Information:aaaa::
+06:01.421	ID:4	RPL : Prefix announced in DIO
+06:01.421	ID:4	RPL: Prefix set - will announce this in DIOs
+06:01.421	ID:4	rpl_set_prefix - prefix NON-NULL
+06:01.421	ID:4	RPL: Received consistent DIO
+06:01.421	ID:4	RPL: preferred DAG aaaa::203:3:3:3, rank 512, min_rank 512, parent rank 768, parent etx 4294967295, link metric 256, instance etx 0
+06:01.421	ID:4	dis_s:0 dis_r:1 dio_s:9 dio_r:16 dao_s:14 dao_r:8 dao_a_s:8 dao_a_r:14 
+06:01.422	ID:2	RPL: rpl_link_neighbor_callback triggering update
+06:01.422	ID:2	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+06:02.236	ID:2	RPL: rpl_process_parent_event recalculate_ranks
+06:02.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+06:10.119	ID:4	RPL: probing   2
+06:10.119	ID:4	RPL: Sending prefix info in DIO for aaaa::
+06:10.119	ID:4	RPL: Sending unicast-DIO with rank 512 to fe80::202:2:2:2
+06:10.119	ID:4	dis_s:0 dis_r:1 dio_s:10 dio_r:16 dao_s:14 dao_r:8 dao_a_s:8 dao_a_r:14 
+06:10.119	ID:4	RPL: rank 512 dioint 18, 2 nbr(s)
+06:10.119	ID:4	RPL: nbr   3   256,   256 =>   512 * (last tx 0 min ago)
+06:10.119	ID:4	RPL: nbr   2   768,   256 =>  1024   (last tx 1 min ago)
+06:10.119	ID:4	RPL: end of list
+06:10.125	ID:2	RPL: Received a DIO from fe80::204:4:4:4
+06:10.125	ID:2	RPL: Neighbor already in neighbor cache
+06:10.125	ID:2	RPL: Incoming DIO (id, ver, rank) = (30,240,512)
+06:10.125	ID:2	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+06:10.125	ID:2	RPL: DIO option 4, length: 14
+06:10.125	ID:2	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+06:10.125	ID:2	RPL: DIO option 8, length: 30
+06:10.125	ID:2	RPL: Copying prefix information
+06:10.125	ID:2	Prefix Information:aaaa::
+06:10.125	ID:2	RPL : Prefix announced in DIO
+06:10.125	ID:2	RPL: Prefix set - will announce this in DIOs
+06:10.125	ID:2	rpl_set_prefix - prefix NON-NULL
+06:10.125	ID:2	RPL: Received consistent DIO
+06:10.125	ID:2	RPL: preferred DAG aaaa::203:3:3:3, rank 768, min_rank 768, parent rank 512, parent etx 4294967295, link metric 256, instance etx 0
+06:10.125	ID:2	dis_s:1 dis_r:0 dio_s:10 dio_r:10 dao_s:8 dao_r:0 dao_a_s:0 dao_a_r:8 
+06:10.126	ID:4	RPL: rpl_link_neighbor_callback triggering update
+06:10.126	ID:4	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+06:10.236	ID:2	RPL: rpl_process_parent_event recalculate_ranks
+06:10.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+06:13.734	ID:3	RPL: rank 256 dioint 18, 2 nbr(s)
+06:13.734	ID:3	RPL: end of list
+06:30.479	ID:3	RPL: DIO Timer triggered
+06:30.479	ID:3	RPL: Sending prefix info in DIO for aaaa::
+06:30.479	ID:3	RPL: Sending a multicast-DIO with rank 256
+06:30.479	ID:3	dis_s:0 dis_r:0 dio_s:7 dio_r:16 dao_s:0 dao_r:20 dao_a_s:20 dao_a_r:0 
+06:30.479	ID:3	RPL: Scheduling DIO timer 130612 ticks in future (sent)
+06:30.479	ID:3	RPL: rank 256 dioint 18, 2 nbr(s)
+06:30.479	ID:3	RPL: end of list
+06:30.484	ID:1	RPL: Received a DIO from fe80::203:3:3:3
+06:30.484	ID:1	RPL: Neighbor already in neighbor cache
+06:30.484	ID:1	RPL: Incoming DIO (id, ver, rank) = (30,240,256)
+06:30.484	ID:1	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+06:30.484	ID:1	RPL: DIO option 4, length: 14
+06:30.484	ID:1	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+06:30.484	ID:1	RPL: DIO option 8, length: 30
+06:30.484	ID:1	RPL: Copying prefix information
+06:30.484	ID:1	Prefix Information:aaaa::
+06:30.484	ID:1	RPL : Prefix announced in DIO
+06:30.484	ID:1	RPL: Prefix set - will announce this in DIOs
+06:30.484	ID:1	rpl_set_prefix - prefix NON-NULL
+06:30.484	ID:1	RPL: Received consistent DIO
+06:30.484	ID:1	RPL: preferred DAG aaaa::203:3:3:3, rank 512, min_rank 512, parent rank 256, parent etx 4294967295, link metric 256, instance etx 0
+06:30.484	ID:1	RPL: Scheduling DAO timer 5360 ticks in the future
+06:30.484	ID:1	dis_s:0 dis_r:0 dio_s:10 dio_r:7 dao_s:6 dao_r:0 dao_a_s:0 dao_a_r:6 
+06:30.484	ID:4	RPL: Received a DIO from fe80::203:3:3:3
+06:30.484	ID:4	RPL: Neighbor already in neighbor cache
+06:30.484	ID:4	RPL: Incoming DIO (id, ver, rank) = (30,240,256)
+06:30.484	ID:4	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+06:30.484	ID:4	RPL: DIO option 4, length: 14
+06:30.484	ID:4	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+06:30.484	ID:4	RPL: DIO option 8, length: 30
+06:30.484	ID:4	RPL: Copying prefix information
+06:30.484	ID:4	Prefix Information:aaaa::
+06:30.484	ID:4	RPL : Prefix announced in DIO
+06:30.484	ID:4	RPL: Prefix set - will announce this in DIOs
+06:30.484	ID:4	rpl_set_prefix - prefix NON-NULL
+06:30.484	ID:4	RPL: Received consistent DIO
+06:30.484	ID:4	RPL: preferred DAG aaaa::203:3:3:3, rank 512, min_rank 512, parent rank 256, parent etx 4294967295, link metric 256, instance etx 0
+06:30.484	ID:4	RPL: Scheduling DAO timer 4941 ticks in the future
+06:30.484	ID:4	dis_s:0 dis_r:1 dio_s:10 dio_r:17 dao_s:14 dao_r:8 dao_a_s:8 dao_a_r:14 
+06:31.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+06:31.382	ID:1	RPL: rpl_process_parent_event recalculate_ranks
+06:35.425	ID:4	RPL: handle_dao_timer - sending DAO
+06:35.425	ID:4	RPL: Sending DAO with prefix aaaa::204:4:4:4 to fe80::203:3:3:3
+06:35.425	ID:4	dis_s:0 dis_r:1 dio_s:10 dio_r:17 dao_s:15 dao_r:8 dao_a_s:8 dao_a_r:14 
+06:35.431	ID:3	RPL: Received a DAO from fe80::204:4:4:4
+06:35.431	ID:3	RPL: DAO from unicast
+06:35.431	ID:3	RPL: DAO flag: 192, option type: 6, lifetime: 255, prefix length: 128 prefix: aaaa::204:4:4:4
+06:35.431	ID:3	RPL: adding DAO route
+06:35.431	ID:3	RPL: Neighbor already in neighbor cache
+06:35.431	ID:3	RPL: Added a route to aaaa::204:4:4:4/128 via fe80::204:4:4:4
+06:35.431	ID:3	RPL: Sending a DAO ACK with sequence number 247 to fe80::204:4:4:4
+06:35.431	ID:3	dis_s:0 dis_r:0 dio_s:7 dio_r:16 dao_s:0 dao_r:20 dao_a_s:21 dao_a_r:0 
+06:35.431	ID:3	dis_s:0 dis_r:0 dio_s:7 dio_r:16 dao_s:0 dao_r:21 dao_a_s:21 dao_a_r:0 
+06:35.432	ID:4	RPL: rpl_link_neighbor_callback triggering update
+06:35.432	ID:4	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+06:35.435	ID:4	RPL: Received a DAO ACK with sequence number 247 and status 0 from fe80::203:3:3:3
+06:35.435	ID:4	dis_s:0 dis_r:1 dio_s:10 dio_r:17 dao_s:15 dao_r:8 dao_a_s:8 dao_a_r:15 
+06:35.585	ID:1	RPL: DIO Timer triggered
+06:35.585	ID:1	RPL: Sending prefix info in DIO for aaaa::
+06:35.585	ID:1	RPL: Sending a multicast-DIO with rank 512
+06:35.585	ID:1	dis_s:0 dis_r:0 dio_s:11 dio_r:7 dao_s:6 dao_r:0 dao_a_s:0 dao_a_r:6 
+06:35.585	ID:1	RPL: Scheduling DIO timer 127870 ticks in future (sent)
+06:35.585	ID:1	RPL: rank 512 dioint 18, 1 nbr(s)
+06:35.585	ID:1	RPL: nbr   3   256,   256 =>   512 * (last tx 1 min ago)
+06:35.585	ID:1	RPL: end of list
+06:35.590	ID:3	RPL: Received a DIO from fe80::201:1:1:1
+06:35.590	ID:3	RPL: Neighbor already in neighbor cache
+06:35.590	ID:3	RPL: Incoming DIO (id, ver, rank) = (30,240,512)
+06:35.590	ID:3	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+06:35.590	ID:3	RPL: DIO option 4, length: 14
+06:35.590	ID:3	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+06:35.590	ID:3	RPL: DIO option 8, length: 30
+06:35.590	ID:3	RPL: Copying prefix information
+06:35.590	ID:3	Prefix Information:aaaa::
+06:35.590	ID:3	RPL : Prefix announced in DIO
+06:35.590	ID:3	RPL: Prefix set - will announce this in DIOs
+06:35.590	ID:3	rpl_set_prefix - prefix NON-NULL
+06:35.590	ID:3	dis_s:0 dis_r:0 dio_s:7 dio_r:17 dao_s:0 dao_r:21 dao_a_s:21 dao_a_r:0 
+06:35.844	ID:1	RPL: handle_dao_timer - sending DAO
+06:35.844	ID:1	RPL: Sending DAO with prefix aaaa::201:1:1:1 to fe80::203:3:3:3
+06:35.844	ID:1	dis_s:0 dis_r:0 dio_s:11 dio_r:7 dao_s:7 dao_r:0 dao_a_s:0 dao_a_r:6 
+06:35.849	ID:3	RPL: Received a DAO from fe80::201:1:1:1
+06:35.849	ID:3	RPL: DAO from unicast
+06:35.849	ID:3	RPL: DAO flag: 192, option type: 6, lifetime: 255, prefix length: 128 prefix: aaaa::201:1:1:1
+06:35.849	ID:3	RPL: adding DAO route
+06:35.849	ID:3	RPL: Neighbor already in neighbor cache
+06:35.849	ID:3	RPL: Added a route to aaaa::201:1:1:1/128 via fe80::201:1:1:1
+06:35.849	ID:3	RPL: Sending a DAO ACK with sequence number 247 to fe80::201:1:1:1
+06:35.849	ID:3	dis_s:0 dis_r:0 dio_s:7 dio_r:17 dao_s:0 dao_r:21 dao_a_s:22 dao_a_r:0 
+06:35.849	ID:3	dis_s:0 dis_r:0 dio_s:7 dio_r:17 dao_s:0 dao_r:22 dao_a_s:22 dao_a_r:0 
+06:35.850	ID:1	RPL: rpl_link_neighbor_callback triggering update
+06:35.850	ID:1	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+06:35.853	ID:1	RPL: Received a DAO ACK with sequence number 247 and status 0 from fe80::203:3:3:3
+06:35.853	ID:1	dis_s:0 dis_r:0 dio_s:11 dio_r:7 dao_s:7 dao_r:0 dao_a_s:0 dao_a_r:7 
+06:35.903	ID:2	Sending unicast to aaaa::201:1:1:1
+06:35.903	ID:2	RPL: Verifying the presence of the RPL header option
+06:35.903	ID:2	RPL: No hop-by-hop option found, creating it
+06:35.903	ID:2	#L 4 0; red
+06:35.903	ID:2	#L 4 1; red
+06:35.903	ID:2	RPL: Updating RPL option
+06:35.908	ID:4	RPL: Packet going up, sender closer 0 (768 < 512)
+06:35.908	ID:4	RPL: Rank OK
+06:35.908	ID:4	RPL: Verifying the presence of the RPL header option
+06:35.908	ID:4	RPL: Updating RPL option
+06:35.908	ID:4	RPL option going up
+06:35.908	ID:4	#L 3 0; red
+06:35.908	ID:4	#L 3 1; red
+06:35.909	ID:2	RPL: rpl_link_neighbor_callback triggering update
+06:35.909	ID:2	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+06:35.914	ID:3	RPL: Packet going up, sender closer 0 (512 < 256)
+06:35.914	ID:3	RPL: Rank OK
+06:35.914	ID:3	RPL: Verifying the presence of the RPL header option
+06:35.914	ID:3	RPL: Updating RPL option
+06:35.914	ID:3	RPL option going down
+06:35.914	ID:3	#L 1 0; red
+06:35.914	ID:3	#L 1 1; red
+06:35.914	ID:4	RPL: rpl_link_neighbor_callback triggering update
+06:35.914	ID:4	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+06:35.919	ID:1	RPL: Packet going down, sender closer 1 (256 < 512)
+06:35.919	ID:1	RPL: Rank OK
+06:35.919	ID:1	Data received from aaaa::202:2:2:2 on port 1234 from port 1234 with length 10: 'Message 5'
+06:36.236	ID:2	RPL: rpl_process_parent_event recalculate_ranks
+06:36.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+06:36.382	ID:1	RPL: rpl_process_parent_event recalculate_ranks
+06:52.836	ID:2	RPL: DIO Timer triggered
+06:52.836	ID:2	RPL: Sending prefix info in DIO for aaaa::
+06:52.836	ID:2	RPL: Sending a multicast-DIO with rank 768
+06:52.836	ID:2	dis_s:1 dis_r:0 dio_s:11 dio_r:10 dao_s:8 dao_r:0 dao_a_s:0 dao_a_r:8 
+06:52.836	ID:2	RPL: Scheduling DIO timer 114368 ticks in future (sent)
+06:52.836	ID:2	RPL: rank 768 dioint 18, 1 nbr(s)
+06:52.836	ID:2	RPL: nbr   4   512,   256 =>   768 * (last tx 0 min ago)
+06:52.836	ID:2	RPL: end of list
+06:52.842	ID:4	RPL: Received a DIO from fe80::202:2:2:2
+06:52.842	ID:4	RPL: Neighbor already in neighbor cache
+06:52.842	ID:4	RPL: Incoming DIO (id, ver, rank) = (30,240,768)
+06:52.842	ID:4	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+06:52.842	ID:4	RPL: DIO option 4, length: 14
+06:52.842	ID:4	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+06:52.842	ID:4	RPL: DIO option 8, length: 30
+06:52.842	ID:4	RPL: Copying prefix information
+06:52.842	ID:4	Prefix Information:aaaa::
+06:52.842	ID:4	RPL : Prefix announced in DIO
+06:52.842	ID:4	RPL: Prefix set - will announce this in DIOs
+06:52.842	ID:4	rpl_set_prefix - prefix NON-NULL
+06:52.842	ID:4	RPL: Received consistent DIO
+06:52.842	ID:4	RPL: preferred DAG aaaa::203:3:3:3, rank 512, min_rank 512, parent rank 768, parent etx 4294967295, link metric 256, instance etx 0
+06:52.842	ID:4	dis_s:0 dis_r:1 dio_s:10 dio_r:18 dao_s:15 dao_r:8 dao_a_s:8 dao_a_r:15 
+06:53.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+07:03.911	ID:1	RPL: probing   3
+07:03.911	ID:1	RPL: Sending prefix info in DIO for aaaa::
+07:03.911	ID:1	RPL: Sending unicast-DIO with rank 512 to fe80::203:3:3:3
+07:03.911	ID:1	dis_s:0 dis_r:0 dio_s:12 dio_r:7 dao_s:7 dao_r:0 dao_a_s:0 dao_a_r:7 
+07:03.911	ID:1	RPL: rank 512 dioint 18, 1 nbr(s)
+07:03.911	ID:1	RPL: nbr   3   256,   256 =>   512 * (last tx 0 min ago)
+07:03.911	ID:1	RPL: end of list
+07:03.917	ID:3	RPL: Received a DIO from fe80::201:1:1:1
+07:03.917	ID:3	RPL: Neighbor already in neighbor cache
+07:03.917	ID:3	RPL: Incoming DIO (id, ver, rank) = (30,240,512)
+07:03.917	ID:3	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+07:03.917	ID:3	RPL: DIO option 4, length: 14
+07:03.917	ID:3	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+07:03.917	ID:3	RPL: DIO option 8, length: 30
+07:03.917	ID:3	RPL: Copying prefix information
+07:03.917	ID:3	Prefix Information:aaaa::
+07:03.917	ID:3	RPL : Prefix announced in DIO
+07:03.917	ID:3	RPL: Prefix set - will announce this in DIOs
+07:03.917	ID:3	rpl_set_prefix - prefix NON-NULL
+07:03.917	ID:3	dis_s:0 dis_r:0 dio_s:7 dio_r:18 dao_s:0 dao_r:22 dao_a_s:22 dao_a_r:0 
+07:03.918	ID:1	RPL: rpl_link_neighbor_callback triggering update
+07:03.918	ID:1	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+07:04.382	ID:1	RPL: rpl_process_parent_event recalculate_ranks
+07:11.864	ID:2	Sending unicast to aaaa::201:1:1:1
+07:11.864	ID:2	RPL: Verifying the presence of the RPL header option
+07:11.864	ID:2	RPL: No hop-by-hop option found, creating it
+07:11.864	ID:2	#L 4 0; red
+07:11.864	ID:2	#L 4 1; red
+07:11.864	ID:2	RPL: Updating RPL option
+07:11.869	ID:4	RPL: Packet going up, sender closer 0 (768 < 512)
+07:11.869	ID:4	RPL: Rank OK
+07:11.869	ID:4	RPL: Verifying the presence of the RPL header option
+07:11.869	ID:4	RPL: Updating RPL option
+07:11.869	ID:4	RPL option going up
+07:11.869	ID:4	#L 3 0; red
+07:11.869	ID:4	#L 3 1; red
+07:11.870	ID:2	RPL: rpl_link_neighbor_callback triggering update
+07:11.870	ID:2	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+07:11.874	ID:3	RPL: Packet going up, sender closer 0 (512 < 256)
+07:11.874	ID:3	RPL: Rank OK
+07:11.874	ID:3	RPL: Verifying the presence of the RPL header option
+07:11.874	ID:3	RPL: Updating RPL option
+07:11.874	ID:3	RPL option going down
+07:11.874	ID:3	#L 1 0; red
+07:11.874	ID:3	#L 1 1; red
+07:11.875	ID:4	RPL: rpl_link_neighbor_callback triggering update
+07:11.875	ID:4	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+07:11.879	ID:1	RPL: Packet going down, sender closer 1 (256 < 512)
+07:11.879	ID:1	RPL: Rank OK
+07:11.879	ID:1	Data received from aaaa::202:2:2:2 on port 1234 from port 1234 with length 10: 'Message 6'
+07:12.236	ID:2	RPL: rpl_process_parent_event recalculate_ranks
+07:12.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+07:22.787	ID:4	RPL: DIO Timer triggered
+07:22.787	ID:4	RPL: Sending prefix info in DIO for aaaa::
+07:22.787	ID:4	RPL: Sending a multicast-DIO with rank 512
+07:22.787	ID:4	dis_s:0 dis_r:1 dio_s:11 dio_r:18 dao_s:15 dao_r:8 dao_a_s:8 dao_a_r:15 
+07:22.787	ID:4	RPL: Scheduling DIO timer 80668 ticks in future (sent)
+07:22.787	ID:4	RPL: rank 512 dioint 18, 2 nbr(s)
+07:22.787	ID:4	RPL: nbr   3   256,   256 =>   512 * (last tx 0 min ago)
+07:22.787	ID:4	RPL: nbr   2   768,   256 =>  1024   (last tx 1 min ago)
+07:22.787	ID:4	RPL: end of list
+07:22.792	ID:2	RPL: Received a DIO from fe80::204:4:4:4
+07:22.792	ID:2	RPL: Neighbor already in neighbor cache
+07:22.792	ID:2	RPL: Incoming DIO (id, ver, rank) = (30,240,512)
+07:22.792	ID:2	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+07:22.792	ID:2	RPL: DIO option 4, length: 14
+07:22.792	ID:2	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+07:22.792	ID:2	RPL: DIO option 8, length: 30
+07:22.792	ID:2	RPL: Copying prefix information
+07:22.792	ID:2	Prefix Information:aaaa::
+07:22.792	ID:2	RPL : Prefix announced in DIO
+07:22.792	ID:2	RPL: Prefix set - will announce this in DIOs
+07:22.792	ID:2	rpl_set_prefix - prefix NON-NULL
+07:22.792	ID:2	RPL: Received consistent DIO
+07:22.792	ID:2	RPL: preferred DAG aaaa::203:3:3:3, rank 768, min_rank 768, parent rank 512, parent etx 4294967295, link metric 256, instance etx 0
+07:22.792	ID:2	RPL: Scheduling DAO timer 3233 ticks in the future
+07:22.792	ID:2	dis_s:1 dis_r:0 dio_s:11 dio_r:11 dao_s:8 dao_r:0 dao_a_s:0 dao_a_r:8 
+07:22.792	ID:3	RPL: Received a DIO from fe80::204:4:4:4
+07:22.792	ID:3	RPL: Neighbor already in neighbor cache
+07:22.792	ID:3	RPL: Incoming DIO (id, ver, rank) = (30,240,512)
+07:22.792	ID:3	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+07:22.792	ID:3	RPL: DIO option 4, length: 14
+07:22.792	ID:3	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+07:22.792	ID:3	RPL: DIO option 8, length: 30
+07:22.792	ID:3	RPL: Copying prefix information
+07:22.792	ID:3	Prefix Information:aaaa::
+07:22.792	ID:3	RPL : Prefix announced in DIO
+07:22.792	ID:3	RPL: Prefix set - will announce this in DIOs
+07:22.792	ID:3	rpl_set_prefix - prefix NON-NULL
+07:22.792	ID:3	dis_s:0 dis_r:0 dio_s:7 dio_r:19 dao_s:0 dao_r:22 dao_a_s:22 dao_a_r:0 
+07:23.236	ID:2	RPL: rpl_process_parent_event recalculate_ranks
+07:26.025	ID:2	RPL: handle_dao_timer - sending DAO
+07:26.025	ID:2	RPL: Sending DAO with prefix aaaa::202:2:2:2 to fe80::204:4:4:4
+07:26.025	ID:2	dis_s:1 dis_r:0 dio_s:11 dio_r:11 dao_s:9 dao_r:0 dao_a_s:0 dao_a_r:8 
+07:26.031	ID:4	RPL: Received a DAO from fe80::202:2:2:2
+07:26.031	ID:4	RPL: DAO from unicast
+07:26.031	ID:4	RPL: DAO flag: 192, option type: 6, lifetime: 255, prefix length: 128 prefix: aaaa::202:2:2:2
+07:26.031	ID:4	RPL: adding DAO route
+07:26.031	ID:4	RPL: Neighbor already in neighbor cache
+07:26.031	ID:4	RPL: Added a route to aaaa::202:2:2:2/128 via fe80::202:2:2:2
+07:26.031	ID:4	RPL: Forwarding DAO to parent fe80::203:3:3:3
+07:26.031	ID:4	dis_s:0 dis_r:1 dio_s:11 dio_r:18 dao_s:16 dao_r:8 dao_a_s:8 dao_a_r:15        
+07:26.031	ID:4	RPL: Sending a DAO ACK with sequence number 249 to fe80::202:2:2:2
+07:26.031	ID:4	dis_s:0 dis_r:1 dio_s:11 dio_r:18 dao_s:16 dao_r:8 dao_a_s:9 dao_a_r:15 
+07:26.031	ID:4	dis_s:0 dis_r:1 dio_s:11 dio_r:18 dao_s:16 dao_r:9 dao_a_s:9 dao_a_r:15 
+07:26.032	ID:2	RPL: rpl_link_neighbor_callback triggering update
+07:26.032	ID:2	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+07:26.035	ID:2	RPL: Received a DAO ACK with sequence number 249 and status 0 from fe80::204:4:4:4
+07:26.035	ID:2	dis_s:1 dis_r:0 dio_s:11 dio_r:11 dao_s:9 dao_r:0 dao_a_s:0 dao_a_r:9 
+07:26.036	ID:4	RPL: rpl_link_neighbor_callback triggering update
+07:26.036	ID:4	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+07:26.041	ID:3	RPL: Received a DAO from fe80::204:4:4:4
+07:26.041	ID:3	RPL: DAO from unicast
+07:26.041	ID:3	RPL: DAO flag: 192, option type: 6, lifetime: 255, prefix length: 128 prefix: aaaa::202:2:2:2
+07:26.041	ID:3	RPL: adding DAO route
+07:26.041	ID:3	RPL: Neighbor already in neighbor cache
+07:26.041	ID:3	RPL: Added a route to aaaa::202:2:2:2/128 via fe80::204:4:4:4
+07:26.041	ID:3	RPL: Sending a DAO ACK with sequence number 249 to fe80::204:4:4:4
+07:26.041	ID:3	dis_s:0 dis_r:0 dio_s:7 dio_r:19 dao_s:0 dao_r:22 dao_a_s:23 dao_a_r:0 
+07:26.041	ID:3	dis_s:0 dis_r:0 dio_s:7 dio_r:19 dao_s:0 dao_r:23 dao_a_s:23 dao_a_r:0 
+07:26.042	ID:4	RPL: rpl_link_neighbor_callback triggering update
+07:26.042	ID:4	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+07:26.045	ID:4	RPL: Received a DAO ACK with sequence number 249 and status 0 from fe80::203:3:3:3
+07:26.045	ID:4	dis_s:0 dis_r:1 dio_s:11 dio_r:18 dao_s:16 dao_r:9 dao_a_s:9 dao_a_r:16 
+07:26.236	ID:2	RPL: rpl_process_parent_event recalculate_ranks
+07:26.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+07:26.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+07:28.680	ID:2	RPL: probing   4
+07:28.680	ID:2	RPL: Sending prefix info in DIO for aaaa::
+07:28.680	ID:2	RPL: Sending unicast-DIO with rank 768 to fe80::204:4:4:4
+07:28.680	ID:2	dis_s:1 dis_r:0 dio_s:12 dio_r:11 dao_s:9 dao_r:0 dao_a_s:0 dao_a_r:9 
+07:28.680	ID:2	RPL: rank 768 dioint 18, 1 nbr(s)
+07:28.680	ID:2	RPL: nbr   4   512,   256 =>   768 * (last tx 0 min ago)
+07:28.680	ID:2	RPL: end of list
+07:28.687	ID:4	RPL: Received a DIO from fe80::202:2:2:2
+07:28.687	ID:4	RPL: Neighbor already in neighbor cache
+07:28.687	ID:4	RPL: Incoming DIO (id, ver, rank) = (30,240,768)
+07:28.687	ID:4	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+07:28.687	ID:4	RPL: DIO option 4, length: 14
+07:28.687	ID:4	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+07:28.687	ID:4	RPL: DIO option 8, length: 30
+07:28.687	ID:4	RPL: Copying prefix information
+07:28.687	ID:4	Prefix Information:aaaa::
+07:28.687	ID:4	RPL : Prefix announced in DIO
+07:28.687	ID:4	RPL: Prefix set - will announce this in DIOs
+07:28.687	ID:4	rpl_set_prefix - prefix NON-NULL
+07:28.687	ID:4	RPL: Received consistent DIO
+07:28.687	ID:4	RPL: preferred DAG aaaa::203:3:3:3, rank 512, min_rank 512, parent rank 768, parent etx 4294967295, link metric 256, instance etx 0
+07:28.687	ID:4	dis_s:0 dis_r:1 dio_s:11 dio_r:19 dao_s:16 dao_r:9 dao_a_s:9 dao_a_r:16 
+07:28.688	ID:2	RPL: rpl_link_neighbor_callback triggering update
+07:28.688	ID:2	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+07:29.236	ID:2	RPL: rpl_process_parent_event recalculate_ranks
+07:29.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+08:00.895	ID:3	RPL: rank 256 dioint 18, 2 nbr(s)
+08:00.895	ID:3	RPL: end of list
+08:09.038	ID:4	RPL: probing   2
+08:09.038	ID:4	RPL: Sending prefix info in DIO for aaaa::
+08:09.038	ID:4	RPL: Sending unicast-DIO with rank 512 to fe80::202:2:2:2
+08:09.038	ID:4	dis_s:0 dis_r:1 dio_s:12 dio_r:19 dao_s:16 dao_r:9 dao_a_s:9 dao_a_r:16 
+08:09.038	ID:4	RPL: rank 512 dioint 18, 2 nbr(s)
+08:09.038	ID:4	RPL: nbr   3   256,   256 =>   512 * (last tx 0 min ago)
+08:09.038	ID:4	RPL: nbr   2   768,   256 =>  1024   (last tx 0 min ago)
+08:09.038	ID:4	RPL: end of list
+08:09.044	ID:2	RPL: Received a DIO from fe80::204:4:4:4
+08:09.044	ID:2	RPL: Neighbor already in neighbor cache
+08:09.044	ID:2	RPL: Incoming DIO (id, ver, rank) = (30,240,512)
+08:09.044	ID:2	RPL: Incoming DIO (dag_id, pref) = (aaaa::203:3:3:3, 0)
+08:09.044	ID:2	RPL: DIO option 4, length: 14
+08:09.044	ID:2	RPL: DAG conf:dbl=8, min=12 red=10 maxinc=1792 mininc=256 ocp=1 d_l=255 l_u=65535
+08:09.044	ID:2	RPL: DIO option 8, length: 30
+08:09.044	ID:2	RPL: Copying prefix information
+08:09.044	ID:2	Prefix Information:aaaa::
+08:09.044	ID:2	RPL : Prefix announced in DIO
+08:09.044	ID:2	RPL: Prefix set - will announce this in DIOs
+08:09.044	ID:2	rpl_set_prefix - prefix NON-NULL
+08:09.044	ID:2	RPL: Received consistent DIO
+08:09.044	ID:2	RPL: preferred DAG aaaa::203:3:3:3, rank 768, min_rank 768, parent rank 512, parent etx 4294967295, link metric 256, instance etx 0
+08:09.044	ID:2	RPL: Scheduling DAO timer 2968 ticks in the future
+08:09.044	ID:2	dis_s:1 dis_r:0 dio_s:12 dio_r:12 dao_s:9 dao_r:0 dao_a_s:0 dao_a_r:9 
+08:09.045	ID:4	RPL: rpl_link_neighbor_callback triggering update
+08:09.045	ID:4	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+08:09.236	ID:2	RPL: rpl_process_parent_event recalculate_ranks
+08:09.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+08:12.012	ID:2	RPL: handle_dao_timer - sending DAO
+08:12.012	ID:2	RPL: Sending DAO with prefix aaaa::202:2:2:2 to fe80::204:4:4:4
+08:12.012	ID:2	dis_s:1 dis_r:0 dio_s:12 dio_r:12 dao_s:10 dao_r:0 dao_a_s:0 dao_a_r:9 
+08:12.017	ID:4	RPL: Received a DAO from fe80::202:2:2:2
+08:12.017	ID:4	RPL: DAO from unicast
+08:12.017	ID:4	RPL: DAO flag: 192, option type: 6, lifetime: 255, prefix length: 128 prefix: aaaa::202:2:2:2
+08:12.017	ID:4	RPL: adding DAO route
+08:12.017	ID:4	RPL: Neighbor already in neighbor cache
+08:12.017	ID:4	RPL: Added a route to aaaa::202:2:2:2/128 via fe80::202:2:2:2
+08:12.017	ID:4	RPL: Forwarding DAO to parent fe80::203:3:3:3
+08:12.017	ID:4	dis_s:0 dis_r:1 dio_s:12 dio_r:19 dao_s:17 dao_r:9 dao_a_s:9 dao_a_r:16        
+08:12.017	ID:4	RPL: Sending a DAO ACK with sequence number 250 to fe80::202:2:2:2
+08:12.017	ID:4	dis_s:0 dis_r:1 dio_s:12 dio_r:19 dao_s:17 dao_r:9 dao_a_s:10 dao_a_r:16 
+08:12.017	ID:4	dis_s:0 dis_r:1 dio_s:12 dio_r:19 dao_s:17 dao_r:10 dao_a_s:10 dao_a_r:16 
+08:12.018	ID:2	RPL: rpl_link_neighbor_callback triggering update
+08:12.018	ID:2	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+08:12.022	ID:2	RPL: Received a DAO ACK with sequence number 250 and status 0 from fe80::204:4:4:4
+08:12.022	ID:2	dis_s:1 dis_r:0 dio_s:12 dio_r:12 dao_s:10 dao_r:0 dao_a_s:0 dao_a_r:10 
+08:12.022	ID:4	RPL: rpl_link_neighbor_callback triggering update
+08:12.022	ID:4	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+08:12.027	ID:3	RPL: Received a DAO from fe80::204:4:4:4
+08:12.027	ID:3	RPL: DAO from unicast
+08:12.027	ID:3	RPL: DAO flag: 192, option type: 6, lifetime: 255, prefix length: 128 prefix: aaaa::202:2:2:2
+08:12.027	ID:3	RPL: adding DAO route
+08:12.027	ID:3	RPL: Neighbor already in neighbor cache
+08:12.027	ID:3	RPL: Added a route to aaaa::202:2:2:2/128 via fe80::204:4:4:4
+08:12.027	ID:3	RPL: Sending a DAO ACK with sequence number 250 to fe80::204:4:4:4
+08:12.027	ID:3	dis_s:0 dis_r:0 dio_s:7 dio_r:19 dao_s:0 dao_r:23 dao_a_s:24 dao_a_r:0 
+08:12.027	ID:3	dis_s:0 dis_r:0 dio_s:7 dio_r:19 dao_s:0 dao_r:24 dao_a_s:24 dao_a_r:0 
+08:12.028	ID:4	RPL: rpl_link_neighbor_callback triggering update
+08:12.028	ID:4	RPL: ETX changed from 1 to 1 (packet ETX = 1)
+08:12.031	ID:4	RPL: Received a DAO ACK with sequence number 250 and status 0 from fe80::203:3:3:3
+08:12.031	ID:4	dis_s:0 dis_r:1 dio_s:12 dio_r:19 dao_s:17 dao_r:10 dao_a_s:10 dao_a_r:17 
+08:12.236	ID:2	RPL: rpl_process_parent_event recalculate_ranks
+08:12.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
+08:12.348	ID:4	RPL: rpl_process_parent_event recalculate_ranks
